@@ -1,4 +1,4 @@
-# library-01030401017
+
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.85">
@@ -58,19 +58,19 @@
             flex: 1; overflow-y: auto; padding: 8px;
         }
         /* dashboard tab styles (scoped) */
-        #dashboard-body .tabs { display:flex; gap:4px; margin-bottom:4px; flex-wrap:nowrap; }
+        #dashboard-body .tabs { display:flex; gap:5px; margin-bottom:4px; flex-wrap:nowrap; }
         #dashboard-body .tab-btn {
-            padding:4px 10px; cursor:pointer; border:1px solid #666; border-radius:10px;
+            padding:3px 7px; cursor:pointer; border:1px solid #666; border-radius:10px;
             background:#fff; user-select:none; font-size:13px;
         }
         #dashboard-body .tab-btn.active { background:#3b82f6; color:white; border-color:#2563eb; }
         #dashboard-body iframe {
             width:99%; height:calc(100vh - 100px);
-            border:.5px solid #ccc; border-radius:10px; background:white;
+            border:.5px solid #ccc; border-radius:10px; background:black;
         }
     </style>
 <style>
-  *, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.ml-4{margin-left:1rem}.mr-2{margin-right:0.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-12{height:3rem}.h-16{height:4rem}.h-screen{height:100vh}.w-12{width:3rem}.w-20{width:5rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-7xl{max-width:80rem}.flex-shrink-0{flex-shrink:0}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-l-lg{border-top-left-radius:0.5rem;border-bottom-left-radius:0.5rem}.rounded-r-lg{border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-dark{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-light{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(30 64 175 / var(--tw-bg-opacity, 1))}.bg-secondary{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-3{padding-bottom:0.75rem}.pt-2{padding-top:0.5rem}.pt-8{padding-top:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-dark{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-secondary{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:bg-amber-600:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-secondary:hover{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.hover\:bg-white:hover{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-500:hover{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.hover\:text-dark:hover{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.hover\:text-secondary:hover{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.focus\:border-transparent:focus{border-color:transparent}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-primary:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(30 64 175 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.ml-4{margin-left:1rem}.mr-2{margin-right:0.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-12{height:3rem}.h-16{height:4rem}.h-screen{height:100vh}.w-12{width:3rem}.w-20{width:5rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-7xl{max-width:80rem}.flex-shrink-0{flex-shrink:0}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-l-lg{border-top-left-radius:0.5rem;border-bottom-left-radius:0.5rem}.rounded-r-lg{border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-dark{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-light{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(30 64 175 / var(--tw-bg-opacity, 1))}.bg-secondary{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-3{padding-bottom:0.75rem}.pt-2{padding-top:0.5rem}.pt-8{padding-top:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-dark{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-secondary{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:bg-amber-600:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-secondary:hover{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.hover\:bg-white:hover{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-500:hover{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.hover\:text-dark:hover{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.hover\:text-secondary:hover{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.focus\:border-transparent:focus{border-color:transparent}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-primary:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(30 64 175 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style></head>
+  *, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.0;-webkit-text-size-adjust:100%;-moz-tab-size:5;tab-size:5;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:0.89em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:99%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:0.86rem}.mb-6{margin-bottom:1.0rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.ml-4{margin-left:1rem}.mr-2{margin-right:0.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-12{height:3rem}.h-16{height:4rem}.h-screen{height:100vh}.w-12{width:3rem}.w-20{width:5rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-7xl{max-width:80rem}.flex-shrink-0{flex-shrink:0}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.0rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-l-lg{border-top-left-radius:0.5rem;border-bottom-left-radius:0.5rem}.rounded-r-lg{border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-dark{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-light{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(30 64 175 / var(--tw-bg-opacity, 1))}.bg-secondary{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-3{padding-bottom:0.75rem}.pt-2{padding-top:0.5rem}.pt-8{padding-top:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-dark{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-secondary{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:bg-amber-600:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-secondary:hover{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.hover\:bg-white:hover{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-500:hover{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.hover\:text-dark:hover{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.hover\:text-secondary:hover{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.focus\:border-transparent:focus{border-color:transparent}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-primary:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(30 64 175 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.ml-4{margin-left:1rem}.mr-2{margin-right:0.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-12{height:3rem}.h-16{height:4rem}.h-screen{height:100vh}.w-12{width:3rem}.w-20{width:5rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-7xl{max-width:80rem}.flex-shrink-0{flex-shrink:0}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-l-lg{border-top-left-radius:0.5rem;border-bottom-left-radius:0.5rem}.rounded-r-lg{border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-dark{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-light{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(30 64 175 / var(--tw-bg-opacity, 1))}.bg-secondary{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-3{padding-bottom:0.75rem}.pt-2{padding-top:0.5rem}.pt-8{padding-top:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-dark{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-secondary{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:bg-amber-600:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-secondary:hover{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.hover\:bg-white:hover{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-500:hover{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.hover\:text-dark:hover{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.hover\:text-secondary:hover{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.focus\:border-transparent:focus{border-color:transparent}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-primary:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(30 64 175 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.ml-4{margin-left:1rem}.mr-2{margin-right:0.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-12{height:3rem}.h-16{height:4rem}.h-screen{height:100vh}.w-12{width:3rem}.w-20{width:5rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-7xl{max-width:80rem}.flex-shrink-0{flex-shrink:0}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-l-lg{border-top-left-radius:0.5rem;border-bottom-left-radius:0.5rem}.rounded-r-lg{border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-dark{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-light{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(30 64 175 / var(--tw-bg-opacity, 1))}.bg-secondary{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-3{padding-bottom:0.75rem}.pt-2{padding-top:0.5rem}.pt-8{padding-top:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-dark{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-secondary{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:bg-amber-600:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-secondary:hover{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.hover\:bg-white:hover{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-500:hover{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.hover\:text-dark:hover{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.hover\:text-secondary:hover{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.focus\:border-transparent:focus{border-color:transparent}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-primary:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(30 64 175 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style></head>
 
 <body class="bg-gray-50">
 
@@ -164,10 +164,10 @@
             background-color: #111f35;
             border: 1px solid #1c3356;
             border-radius: 12px;
-            padding: 16px;
+            padding: 10px;
             display: flex;
             align-items: center;
-            gap: 14px;
+            gap: 9px;
         }
         .chart-container {
             position: relative;
@@ -3021,1077 +3021,1340 @@ function renderAttendance() {
 </script>
 
 </template>
-<template id="tpl-library">
+<template id="tpl-library" <meta="" charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=0.9">
+<title>ប្រព័ន្ធគ្រប់គ្រងទិន្នន័យបណ្ណាល័យ</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
 
+	@page {
+		size: A4;
+		margin: 5mm;
+	}
 
+	body {
+		font-family: "Khmer OS", "Noto Sans Khmer", Arial, sans-serif;
+		color: #2c3e50;
+		line-height: 1.5;
+		background: #f5f7fa;
+		padding: 10px;
+	}
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=0.9">
-  <title>libraries-01030401017</title>
-  <link rel="stylesheet" href="img/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    * { margin:0; padding:0; box-sizing:border-box; }
-    
-    @page { size: A4; margin: 5mm; }
-    
-    body { 
-      font-family: "Khmer OS", "Noto Sans Khmer", Arial, sans-serif; 
-      color:#2c3e50; 
-      line-height:1.5;
-      background:#f5f7fa;
-      padding:10px;
-    }
-    
-    .main-container {
-      max-width:1000px;
-      margin:0 auto;
-      background:white;
-      border-radius:8px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.1);
-      overflow:hidden;
-    }
-    
-    .header {
-      text-align:center;
-      background:linear-gradient(135deg, #2980b9 0%, #1a5490 100%);
-      color:white;
-      padding:10px;
-    }
-    
-    .header h1 {
-      font-size:20px;
-      margin-bottom:8px;
-    }
-    
-    .header p {
-      font-size:12px;
-      margin:4px 0;
-      opacity:0.9;
-    }
-    
-    /* Tab Navigation */
-    .tab-navigation {
-      display:flex;
-      background:#ecf0f1;
-      border-bottom:2px solid #2980b9;
-      overflow-x:auto;
-    }
-    
-    .tab-btn {
-      flex:1;
-      padding:12px 16px;
-      border:none;
-      background:transparent;
-      cursor:pointer;
-      font-size:12px;
-      font-weight:600;
-      color:#555;
-      border-bottom:3px solid transparent;
-      transition:all 0.3s ease;
-      font-family:inherit;
-      white-space:nowrap;
-      min-width:120px;
-    }
-    
-    .tab-btn:hover {
-      background:rgba(41, 128, 185, 0.1);
-      color:#2980b9;
-    }
-    
-    .tab-btn.active {
-      color:white;
-      background:#2980b9;
-      border-bottom-color:#f39c12;
-    }
-    
-    /* Tab Content */
-    .tab-content {
-      display:none;
-      padding:20px;
-      min-height:400px;
-      animation:fadeIn 0.3s ease;
-    }
-    
-    .tab-content.active {
-      display:block;
-    }
-    
-    @keyframes fadeIn {
-      from { opacity:0; }
-      to { opacity:1; }
-    }
-    
-    .container {
-      padding:16px 0;
-    }
-    
-    .section-header {
-      background:#f8f9fa;
-      padding:12px 16px;
-      border-radius:6px;
-      margin-bottom:16px;
-      border-left:4px solid #2980b9;
-    }
-    
-    .section-header h2 {
-      font-size:14px;
-      color:#1a5490;
-      margin:0 0 6px 0;
-    }
-    
-    .section-header p {
-      font-size:10px;
-      color:#666;
-      line-height:1.4;
-    }
-    
-    table {
-      width:100%;
-      border-collapse:collapse;
-      font-size:10px;
-      margin:12px 0;
-      overflow-x:auto;
-    }
-    
-    th, td {
-      border:1px solid #bdc3c7;
-      padding:6px;
-      text-align:left;
-      vertical-align:middle;
-    }
-    
-    th {
-      background:linear-gradient(135deg, #2980b9 0%, #1a5490 100%);
-      color:white;
-      font-weight:600;
-      text-align:center;
-      font-size:9px;
-    }
-    
-    tbody tr:nth-child(odd) { background:#f8f9fa; }
-    tbody tr:hover { background:#ecf0f1; }
-    
-    td[contenteditable] {
-      background:white;
-      cursor:text;
-      min-height:20px;
-    }
-    
-    td[contenteditable]:focus {
-      background:#fffacd;
-      outline:2px solid #f39c12;
-    }
-    
-    input[type="date"],
-    input[type="text"],
-    input[type="number"],
-    select {
-      border:1px solid #bdc3c7;
-      padding:4px;
-      border-radius:3px;
-      font-family:inherit;
-      font-size:11px;
-      width:95%;
-    }
-    
-    .notes-box {
-      background:#ecf0f1;
-      padding:10px;
-      border-radius:6px;
-      font-size:9px;
-      margin:12px 0;
-      line-height:1.5;
-      border-left:4px solid #2980b9;
-    }
-    
-    .notes-box strong {
-      color:#1a5490;
-    }
-    
-    .control-panel {
-      background:#f8f9fa;
-      padding:12px;
-      border-radius:6px;
-      margin:16px 0;
-      border:1px solid #ecf0f1;
-      display:flex;
-      gap:8px;
-      flex-wrap:wrap;
-      align-items:center;
-    }
-    
-    button {
-      padding:8px 12px;
-      background:#2980b9;
-      color:white;
-      border:none;
-      border-radius:4px;
-      cursor:pointer;
-      font-size:11px;
-      font-weight:500;
-      font-family:inherit;
-      transition:all 0.3s ease;
-    }
-    
-    button:hover {
-      background:#1a5490;
-      transform:translateY(-2px);
-    }
-    
-    button.btn-success {
-      background:#27ae60;
-    }
-    
-    button.btn-success:hover {
-      background:#229954;
-    }
-    
-    button.btn-danger {
-      background:#e74c3c;
-    }
-    
-    button.btn-danger:hover {
-      background:#c0392b;
-    }
-    
-    button.btn-warning {
-      background:#f39c12;
-    }
-    
-    button.btn-warning:hover {
-      background:#e67e22;
-    }
-    
-    button.btn-small {
-      padding:4px 8px;
-      font-size:9px;
-    }
-    
-    .input-group {
-      display:flex;
-      gap:12px;
-      align-items:center;
-      margin:8px 0;
-      flex-wrap:wrap;
-    }
-    
-    .input-group label {
-      font-size:11px;
-      font-weight:500;
-      color:#2c3e50;
-      min-width:130px;
-    }
-    
-    .input-group input {
-      padding:6px 8px;
-      border:1px solid #bdc3c7;
-      border-radius:4px;
-      font-size:11px;
-      flex:1;
-      min-width:150px;
-    }
-    
-    .status-message {
-      padding:10px 12px;
-      border-radius:4px;
-      margin:8px 0;
-      font-size:11px;
-      display:none;
-      border-left:4px solid;
-    }
-    
-    .status-message.show { display:block; }
-    .status-message.success { 
-      background:#d4edda; 
-      color:#155724; 
-      border-left-color:#28a745;
-    }
-    .status-message.error { 
-      background:#f8d7da; 
-      color:#721c24; 
-      border-left-color:#dc3545;
-    }
-    .status-message.info { 
-      background:#d1ecf1; 
-      color:#0c5460; 
-      border-left-color:#17a2b8;
-    }
-    
-    /* Modal */
-    .modal {
-      display:none;
-      position:fixed;
-      z-index:1000;
-      left:0;
-      top:0;
-      width:100%;
-      height:100%;
-      background:rgba(0,0,0,0.7);
-      overflow-y:auto;
-    }
-    
-    .modal-content {
-      background:white;
-      margin:5% auto;
-      padding:20px;
-      border-radius:8px;
-      width:90%;
-      max-width:600px;
-      box-shadow:0 8px 24px rgba(0,0,0,0.2);
-    }
-    
-    .modal-header {
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      margin-bottom:12px;
-      padding-bottom:8px;
-      border-bottom:2px solid #ecf0f1;
-    }
-    
-    .modal-header h3 {
-      color:#1a5490;
-      font-size:15px;
-      margin:0;
-    }
-    
-    /* Form Grid inside Modal */
-    .form-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-      margin-bottom: 15px;
-    }
-    .form-group {
-      display: flex;
-      flex-direction: column;
-    }
-    .form-group label {
-      font-size: 11px;
-      font-weight: 600;
-      margin-bottom: 4px;
-      color: #34495e;
-    }
-    .form-group input, .form-group select {
-      width: 100%;
-      padding: 6px;
-    }
-    
-    .modal-canvas {
-      border:2px dashed #2980b9;
-      width:100%;
-      height:150px;
-      touch-action:none;
-      background:#f0f4f8;
-      border-radius:4px;
-      cursor:crosshair;
-    }
-    
-    .modal-footer {
-      margin-top:12px;
-      display:flex;
-      gap:8px;
-      justify-content:flex-end;
-    }
-    
-    .table-wrapper {
-      overflow-x:auto;
-    }
-    
-    @media print {
-      .no-print { display:none !important; }
-      body { background:white; padding:0; }
-      .main-container { box-shadow:none; }
-      .tab-navigation { display:none; }
-      .control-panel { display:none; }
-    }
-  </style>
+	.main-container {
+		max-width: 1000px;
+		margin: 0 auto;
+		background: white;
+		border-radius: 8px;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		overflow: hidden;
+	}
+
+	.header {
+		text-align: center;
+		background: linear-gradient(135deg, #2980b9 0%, #1a5490 100%);
+		color: white;
+		padding: 15px;
+	}
+
+	.header h1 {
+		font-size: 20px;
+		margin-bottom: 8px;
+	}
+
+	.header p {
+		font-size: 12px;
+		margin: 4px 0;
+		opacity: 0.9;
+	}
+
+	/* Tab Navigation */
+	.tab-navigation {
+		display: flex;
+		background: #ecf0f1;
+		border-bottom: 2px solid #2980b9;
+		overflow-x: auto;
+	}
+
+	.tab-btn {
+		flex: 1;
+		padding: 12px 16px;
+		border: none;
+		background: transparent;
+		cursor: pointer;
+		font-size: 12px;
+		font-weight: 600;
+		color: #555;
+		border-bottom: 3px solid transparent;
+		transition: all 0.3s ease;
+		font-family: inherit;
+		white-space: nowrap;
+		min-width: 100px;
+	}
+
+	.tab-btn:hover {
+		background: rgba(41, 128, 185, 0.1);
+		color: #2980b9;
+	}
+
+	.tab-btn.active {
+		color: white;
+		background: #2980b9;
+		border-bottom-color: #f39c12;
+	}
+
+	/* Tab Content */
+	.tab-content {
+		display: none;
+		padding: 20px;
+		min-height: 400px;
+		animation: fadeIn 0.3s ease;
+	}
+
+	.tab-content.active {
+		display: block;
+	}
+
+	@keyframes fadeIn {
+		from { opacity: 0; }
+		to { opacity: 1; }
+	}
+
+	.container-fluid {
+		padding: 10px 0;
+	}
+
+	.section-header {
+		background: #f8f9fa;
+		padding: 12px 16px;
+		border-radius: 6px;
+		margin-bottom: 16px;
+		border-left: 4px solid #2980b9;
+	}
+
+	.section-header h2 {
+		font-size: 14px;
+		color: #1a5490;
+		margin: 0 0 6px 0;
+	}
+
+	.section-header p {
+		font-size: 11px;
+		color: #666;
+		line-height: 1.4;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 11px;
+		margin: 12px 0;
+	}
+
+	th, td {
+		border: 1px solid #bdc3c7;
+		padding: 6px;
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	th {
+		background: linear-gradient(135deg, #2980b9 0%, #1a5490 100%);
+		color: white;
+		font-weight: 600;
+		text-align: center;
+		font-size: 10px;
+	}
+
+	tbody tr:nth-child(odd) { background: #f8f9fa; }
+	tbody tr:hover { background: #ecf0f1; }
+
+	td[contenteditable] {
+		background: white;
+		cursor: text;
+		min-width: 40px;
+	}
+
+	td[contenteditable]:focus {
+		background: #fffacd;
+		outline: 2px solid #f39c12;
+	}
+
+	input[type="date"],
+	input[type="text"],
+	input[type="number"],
+	select, textarea {
+		border: 1px solid #bdc3c7;
+		padding: 4px;
+		border-radius: 3px;
+		font-family: inherit;
+		font-size: 11px;
+		width: 100%;
+	}
+
+	.control-panel {
+		background: #f8f9fa;
+		padding: 12px;
+		border-radius: 6px;
+		margin: 16px 0;
+		border: 1px solid #ecf0f1;
+		display: flex;
+		gap: 8px;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	button {
+		padding: 8px 12px;
+		background: #2980b9;
+		color: white;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 11px;
+		font-weight: 500;
+		font-family: inherit;
+		transition: all 0.3s ease;
+	}
+
+	button:hover {
+		background: #1a5490;
+		transform: translateY(-1px);
+	}
+
+	button.btn-success { background: #27ae60; }
+	button.btn-success:hover { background: #229954; }
+	button.btn-danger { background: #e74c3c; }
+	button.btn-danger:hover { background: #c0392b; }
+	button.btn-warning { background: #f39c12; }
+	button.btn-warning:hover { background: #e67e22; }
+	button.btn-small { padding: 4px 8px; font-size: 10px; }
+
+	.input-group {
+		display: flex;
+		gap: 12px;
+		align-items: center;
+		margin: 8px 0;
+		flex-wrap: wrap;
+	}
+
+	.input-group label {
+		font-size: 11px;
+		font-weight: 500;
+		color: #2c3e50;
+		min-width: 100px;
+	}
+
+	.input-group input, .input-group select {
+		padding: 6px 8px;
+		border: 1px solid #bdc3c7;
+		border-radius: 4px;
+		font-size: 11px;
+		flex: 1;
+		min-width: 150px;
+	}
+
+	.search-box {
+		max-width: 300px;
+		margin-left: auto;
+	}
+
+	.status-message {
+		padding: 10px 12px;
+		border-radius: 4px;
+		margin: 8px 0;
+		font-size: 11px;
+		display: none;
+		border-left: 4px solid;
+	}
+
+	.status-message.show { display: block; }
+	.status-message.success { background: #d4edda; color: #155724; border-left-color: #28a745; }
+	.status-message.error { background: #f8d7da; color: #721c24; border-left-color: #dc3545; }
+	.status-message.info { background: #d1ecf1; color: #0c5460; border-left-color: #17a2b8; }
+
+	/* Modals */
+	.modal {
+		display: none;
+		position: fixed;
+		z-index: 1000;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.6);
+		overflow-y: auto;
+	}
+
+	.modal-content {
+		background: white;
+		margin: 5% auto;
+		padding: 20px;
+		border-radius: 8px;
+		width: 90%;
+		max-width: 600px;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+	}
+
+	.modal-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 12px;
+		padding-bottom: 8px;
+		border-bottom: 2px solid #ecf0f1;
+	}
+
+	.modal-header h3 { color: #1a5490; font-size: 15px; margin: 0; }
+
+	.form-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+		margin-bottom: 15px;
+	}
+	.form-group { display: flex; flex-direction: column; margin-bottom: 8px;}
+	.form-group label { font-size: 11px; font-weight: 600; margin-bottom: 4px; color: #34495e; }
+
+	.modal-canvas {
+		border: 2px dashed #2980b9;
+		width: 100%;
+		height: 140px;
+		touch-action: none;
+		background: #f0f4f8;
+		border-radius: 4px;
+		cursor: crosshair;
+	}
+
+	.table-wrapper { overflow-x: auto; }
+
+	/* កាលបរិច្ឆេទដែលបង្ហាញសញ្ញា ⬇️ */
+	.arrow-date-container {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+	.arrow-overlay {
+		position: absolute;
+		left: 0; top: 0; width: 100%; height: 100%;
+		background: #eaf2f8;
+		display: none;
+		align-items: center;
+		justify-content: center;
+		font-size: 14px;
+		font-weight: bold;
+		color: #2980b9;
+		cursor: pointer;
+		border-radius: 3px;
+		border: 1px solid #bdc3c7;
+	}
+	.arrow-overlay.show { display: flex; }
+
+	@media print {
+		.no-print { display: none !important; }
+		body { background: white; padding: 0; }
+		.main-container { box-shadow: none; max-width: 100%; }
+		.tab-navigation, .control-panel { display: none !important; }
+		.tab-content { display: none !important; }
+		.tab-content.active { display: block !important; }
+	}
+</style>
 
 
 
 <div class="main-container">
-  <div class="header">
-    <h1>📚 ប្រព័ន្ធកត់ត្រាបណ្ណាល័យ</h1>
-    <p>Library Record Management System</p>
-    <p id="schoolDisplay" style="margin-top:8px; font-size:13px;"></p>
-  </div>
+	<div class="header">
+		<h1>📚 ប្រព័ន្ធកត់ត្រាបណ្ណាល័យ (Library Management System)</h1>
+		<p id="schoolDisplay">សាលារៀន៖ មិនទាន់កំណត់</p>
+	</div>
 
-  <div class="tab-navigation no-print">
-    <button class="tab-btn active" onclick="switchTab(0)">ក) បញ្ជីរួម</button>
-    <button class="tab-btn" onclick="switchTab(1)">ខ) ខ្ចី-សង</button>
-    <button class="tab-btn" onclick="switchTab(2)">គ) សកម្មភាព</button>
-    <button class="tab-btn" onclick="switchTab(3)">ឃ) សារពើភ័ណ្ឌ</button>
-  </div>
+	<div class="tab-navigation no-print">
+		<button class="tab-btn active" onclick="switchTab(0)">ក) បញ្ជីរួម</button>
+		<button class="tab-btn" onclick="switchTab(1)">ខ) ខ្ចី-សង</button>
+		<button class="tab-btn" onclick="switchTab(2)">គ) សកម្មភាព</button>
+		<button class="tab-btn" onclick="switchTab(3)">ឃ) សារពើភ័ណ្ឌ</button>
+		<button class="tab-btn" onclick="switchTab(4)">ង) របាយការណ៍</button>
+	</div>
 
-  <div class="tab-content active" id="tab0">
-    <div class="container">
-      <div class="section-header">
-        <h2>ក) បញ្ជីរួម</h2>
-           <p>Grand List - បញ្ជីរួម គឺជាបញ្ជីសម្រាប់កត់ត្រាឯកសារចូលគ្រប់ប្រភេទក្នុងបណ្ណាល័យ។ បញ្ជីនេះ ត្រូវបានប្រើ ដោយបណ្ណារក្ស គណៈគ្រប់គ្រងសាលា និងគណៈកម្មការទ្រទ្រង់/គ្រប់គ្រងសាលារៀន ក្នុងការត្រួតពិនិត្យ សៀវភៅក្នុងបណ្ណាល័យ។ មុននឹងចុះបញ្ជីរួម បណ្ណារក្សត្រូវប្រឹងប្រែងបែងចែកឯកសារ/សៀវភៅ ឱ្យដាច់ដោយឡែក ពីគ្នារវាងប្រភេទសៀវភៅអក្សរសិល្ប៍ សៀវភៅព័ត៌មាន និងសៀវភៅសិក្សា។ បញ្ជីរួម ត្រូវបានអនុវត្តដូចខាង ក្រោម៖</p>
-<p style="text-align: left; font size-9px;">
-• ការចុះបញ្ជីរួម មិនត្រូវឱ្យហួសរយៈពេលមួយសប្ដាហ៍ឡើយ ក្រោយពីពេលវេលាបានទទួលឯកសារថ្មី។<br>
-• ធ្វើការបូកសរុប និងបិទបញ្ជីយ៉ាងទៀងទាត់ នៅរៀងរាល់ដំណាច់ឆ្នាំសិក្សា។<br>
-• បណ្ណារក្ស ត្រូវធ្វើកំណត់សម្គាល់ចំនួនចំណងជើងសៀវភៅតាមប្រភេទ៖<br>
-✓ ចំនួនចំណងជើងសៀវភៅអក្សរសិល្ប៍<br>
-✓ ចំនួនចំណងជើងសៀវភៅព័ត៌មាន<br>
-✓ ចំនួនចំណងជើងសៀវភៅសិក្សា</p>
+	<div class="tab-content active" id="tab0">
+		<div class="container-fluid">
+			<div class="section-header">
+				<h2>ក) បញ្ជីរួម (Grand List)</h2>
 <p>
-✍️ភារកិច្ច : កត់ត្រាឯកសារចូលគ្រប់ប្រភេទក្នុងបណ្ណាល័យ។ <br>ការចុះបញ្ជីរួម មិនត្រូវឱ្យលើសពីមួយសប្ដាហ៍ក្រោយទទួលឯកសារថ្មី។</p>
-      </div>
-      <div class="input-group">
-        <label>🏫 សាលា:</label>
-        <input type="text" id="tab0_school" placeholder="សាលាបឋមសិក្សា រោគ">
-        <label>📅 ខែ/ឆ្នាំ:</label>
-        <input type="month" id="tab0_month">
-      </div>
+					Grand List - បញ្ជីរួម
+					គឺជាបញ្ជីសម្រាប់កត់ត្រាឯកសារចូលគ្រប់ប្រភេទក្នុងបណ្ណាល័យ។
+					បញ្ជីនេះ ត្រូវបានប្រើ ដោយបណ្ណារក្ស គណៈគ្រប់គ្រងសាលា
+					និងគណៈកម្មការទ្រទ្រង់/គ្រប់គ្រងសាលារៀន ក្នុងការត្រួតពិនិត្យ
+					សៀវភៅក្នុងបណ្ណាល័យ។ មុននឹងចុះបញ្ជីរួម
+					បណ្ណារក្សត្រូវប្រឹងប្រែងបែងចែកឯកសារ/សៀវភៅ ឱ្យដាច់ដោយឡែក
+					ពីគ្នារវាងប្រភេទសៀវភៅអក្សរសិល្ប៍ សៀវភៅព័ត៌មាន
+					និងសៀវភៅសិក្សា។ បញ្ជីរួម ត្រូវបានអនុវត្តដូចខាង ក្រោម៖
+				</p>
+				<p style="text-align: left; font size-9px;">
+					• ការចុះបញ្ជីរួម មិនត្រូវឱ្យហួសរយៈពេលមួយសប្ដាហ៍ឡើយ
+					ក្រោយពីពេលវេលាបានទទួលឯកសារថ្មី។<br>
+					• ធ្វើការបូកសរុប និងបិទបញ្ជីយ៉ាងទៀងទាត់
+					នៅរៀងរាល់ដំណាច់ឆ្នាំសិក្សា។<br>
+					• បណ្ណារក្ស
+					ត្រូវធ្វើកំណត់សម្គាល់ចំនួនចំណងជើងសៀវភៅតាមប្រភេទ៖<br>
+					✓ ចំនួនចំណងជើងសៀវភៅអក្សរសិល្ប៍<br>
+					✓ ចំនួនចំណងជើងសៀវភៅព័ត៌មាន<br>
+					✓ ចំនួនចំណងជើងសៀវភៅសិក្សា
+				</p>
+				<p>
+					✍️ភារកិច្ច : កត់ត្រាឯកសារចូលគ្រប់ប្រភេទក្នុងបណ្ណាល័យ។
+					<br>ការចុះបញ្ជីរួម
+					មិនត្រូវឱ្យលើសពីមួយសប្ដាហ៍ក្រោយទទួលឯកសារថ្មី។
+				</p>			</div>
+			<div class="input-group">
+				<label>🏫 សាលា:</label>
+				<input type="text" id="tab0_school" placeholder="ឈ្មោះសាលា" oninput="syncSchoolName(this.value)">
+				<label>📅 ខែ/ឆ្នាំ:</label>
+				<input type="month" id="tab0_month">
+				<input type="text" class="form-control search-box no-print" placeholder="🔍 ស្វែងរកក្នុងបញ្ជីរួម..." onkeyup="filterTable('tab0Table', this.value)">
+			</div>
 
-      <div class="table-wrapper">
-        <table id="tab0Table">
-          <thead>
-            <tr>
-              <th rowspan="3">ល.រ</th>
-              <th rowspan="3">ថ្ងៃខែឆ្នាំចូល</th>
-              <th rowspan="3">លេខបញ្ជី</th>
-              <th colspan="6">សរុប ចំនួនចំណងជើង និង ចំនួនក្បាល</th>
-              <th rowspan="3">សរុបរួម</th>
-              <th rowspan="3">ប្រភព</th>
-            </tr>
-            <tr>
-              <th colspan="2">សៀវភៅអក្សរសិល្ប៍</th>
-              <th colspan="2">សៀវភៅព័ត៌មាន</th>
-              <th colspan="2">សាមយិបត្រ</th>
-            </tr>
-            <tr style="font-size:9px;">
-              <td>ចំណងជើង</td><td>ក្បាល(១)</td>
-              <td>ចំណងជើង</td><td>ក្បាល(២)</td>
-              <td>ចំណងជើង</td><td>ក្បាល(៣)</td>
-            </tr>
-          </thead>
-          <tbody id="tab0Body"></tbody>
-        </table>
-      </div>
+			<div class="table-wrapper">
+				<table id="tab0Table">
+					<thead>
+						<tr>
+							<th rowspan="3">ល.រ</th>
+							<th rowspan="3" style="width: 140px;">ថ្ងៃខែឆ្នាំចូល</th>
+							<th rowspan="3">លេខបញ្ជី</th>
+							<th colspan="6">សរុប ចំនួនចំណងជើង និង ចំនួនក្បាល</th>
+							<th rowspan="3">សរុបរួម</th>
+							<th rowspan="3">ប្រភព</th>
+						</tr>
+						<tr>
+							<th colspan="2">សៀវភៅអក្សរសិល្ប៍</th>
+							<th colspan="2">សៀវភៅព័ត៌មាន</th>
+							<th colspan="2">សាមយិបត្រ</th>
+						</tr>
+						<tr style="font-size: 9px">
+							<td>ចំណងជើង</td><td>ក្បាល(១)</td>
+							<td>ចំណងជើង</td><td>ក្បាល(២)</td>
+							<td>ចំណងជើង</td><td>ក្បាល(៣)</td>
+						</tr>
+					</thead>
+					<tbody id="tab0Body"></tbody>
+				</table>
+			</div>
+			<div class="control-panel no-print">
+				<button onclick="addTab0Row()">➕ បន្ថែមជួរ</button>
+			</div>
+		</div>
+	</div>
 
-      <div class="control-panel no-print">
-        <button onclick="addTab0Row()">➕ បន្ថែមជួរ</button>
-      </div>
-    </div>
-  </div>
+	<div class="tab-content" id="tab1">
+		<div class="container-fluid">
+			<div class="section-header">
+				<h2>ខ) ប្រព័ន្ធខ្ចី-សងសៀវភៅ (Loan Record)</h2>
+				<p>
+					Loan Record -
+					បញ្ជីតារាងខ្ចី-សងសៀវៀក្បាលលម្អិតសម្រាប់តាមរយៈក្រុម
+					និងខែ។បញ្ជីតារាងខ្ចី-សងសៀវភៅ ត្រូវមានទម្រង់
+					និងខ្លឹមសារដូចតារាងខាងក្រោម។ បញ្ជីនេះ
+					ត្រូវរៀបចំជាមួយសៀវភៅលេខឈុត
+					ដាច់ដោយឡែកពីគ្នាសម្រាប់ថ្នាក់នីមួយៗ ដើម្បីងាយស្រួលកត់ត្រា
+					និងអាចគ្រប់គ្រងការខ្ចី-សងតាមថ្នាក់នីមួយៗជាប្រចាំខែ ត្រីមាស
+					ឬប្រចាំឆ្នាំ។ ដោយកាត់ត្រាលម្អិតជាផ្នែកសម្រាប់លេខរៀងសៀវភៅ
+					ខ្ចីនិងសង ដើម្បីមានភាពងាយស្រួល ជួយសន្សំទឹក
+					សមស្របជាមួយបទប្បញ្ញត្តិ និងអាចគ្រប់គ្រងបាន។
+				</p>
+				<p>
+					នីតិវិធីនៃការអនុវត្តប្រព័ន្ធខ្ចី-សងសៀវភៅ<br>
+					ក្នុងរយៈពេលពីរសប្តាហ៍ដំបូងបន្ទាប់ពីបណ្ណាល័យបើកដំណើរការ
+					សិស្សមិនត្រូវបានអនុញ្ញាតឱ្យខ្ចីសៀវភៅឡើយ។ ក្នុងអំឡុងពេលនេះ
+					គ្រូបង្រៀននិងបណ្ណារក្សត្រូវបង្រៀនសិស្សអំពីការប្រើប្រាស់បណ្ណាល័យ
+					ដូចជាការខ្ចី-សងសៀវភៅ ការជ្រើសរើសប្រភេទសៀវភៅ គោលការណ៍បណ្ណាល័យ
+					និងការថែរក្សាសៀវភៅ។
+					សិស្សទាំងអស់អាចចាប់ផ្តើមខ្ចីសៀវភៅយកទៅអាននៅផ្ទះ នៅសប្តាហ៍ទី៣
+					បន្ទាប់ពីបានរៀនសូត្រអំពីការប្រើប្រាស់បណ្ណាល័យរួច។
+					សិស្សជាច្រើនអាចមានពេលវេលាទំនេរច្រើននៅពេលចេញលេង
+					ដើម្បីមកខ្ចីសៀវភៅ។ ដូច្នេះ សិស្សគរុសិស្ស
+					គឺជាយន្តការពិសេសក្នុងការជួយបណ្ណារក្សកត់ត្រាការខ្ចី-សងដ៏មមាញឹកនេះ
+					ឱ្យបានទៀងទាត់ ទាន់ពេលវេលា គ្រប់គ្រាន់ និងត្រឹមត្រូវ។
+					ខាងក្រោមនេះជាការរៀបចំបណ្ណាល័យសិស្សគរុសិស្ស
+					និងដំណើរការខ្ចី-សងសៀវភៅ៖
+				</p>			</div>
+			<div class="input-group">
+				<label>🏫 សាលា:</label>
+				<input type="text" id="tab1_school" placeholder="ឈ្មោះសាលា" oninput="syncSchoolName(this.value)">
+				<label>📅 ខែ/ឆ្នាំ:</label>
+				<input type="month" id="tab1_month">
+				<input type="text" class="form-control search-box no-print" placeholder="🔍 ស្វែងរកឈ្មោះសិស្ស/ថ្នាក់/សៀវភៅ..." onkeyup="filterTable('tab1Table', this.value)">
+			</div>
+			<div class="control-panel no-print">
+				<button class="btn-success" onclick="openLoanModal()">➕ ខ្ចីសៀវភៅថ្មី (Open Form)</button>
+			</div>
+			<div class="table-wrapper">
+				<table id="tab1Table">
+					<thead>
+						<tr>
+							<th>ល.រ</th>
+							<th>គោត្តនាម</th>
+							<th>នាមខ្លួន</th>
+							<th>ភេទ</th>
+							<th>ថ្នាក់</th>
+							<th>ចំណងជើងសៀវភៅ</th>
+							<th>លេខ Acc</th>
+							<th>កាលបរិច្ឆេទខ្ចី</th>
+							<th>ហត្ថលេខាខ្ចី</th>
+							<th>កាលបរិច្ឆេទសង</th>
+							<th>ហត្ថលេខាសង</th>
+							<th>ផ្សេងៗ</th>
+							<th class="no-print">សកម្មភាព</th>
+						</tr>
+					</thead>
+					<tbody id="tab1Body"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
 
-  <div class="tab-content" id="tab1">
-    <div class="container">
-      <div class="section-header">
-        <h2>ខ) ប្រព័ន្ធខ្ចី-សងសៀវភៅ</h2>
-      <p>Loan Record - បញ្ជីតារាងខ្ចី-សងសៀវៀក្បាលលម្អិតសម្រាប់តាមរយៈក្រុម និងខែ។បញ្ជីតារាងខ្ចី-សងសៀវភៅ ត្រូវមានទម្រង់ និងខ្លឹមសារដូចតារាងខាងក្រោម។ បញ្ជីនេះ ត្រូវរៀបចំជាមួយសៀវភៅលេខឈុត ដាច់ដោយឡែកពីគ្នាសម្រាប់ថ្នាក់នីមួយៗ ដើម្បីងាយស្រួលកត់ត្រា និងអាចគ្រប់គ្រងការខ្ចី-សងតាមថ្នាក់នីមួយៗជាប្រចាំខែ ត្រីមាស ឬប្រចាំឆ្នាំ។ ដោយកាត់ត្រាលម្អិតជាផ្នែកសម្រាប់លេខរៀងសៀវភៅ ខ្ចីនិងសង ដើម្បីមានភាពងាយស្រួល ជួយសន្សំទឹក សមស្របជាមួយបទប្បញ្ញត្តិ និងអាចគ្រប់គ្រងបាន។</p>
-<p>នីតិវិធីនៃការអនុវត្តប្រព័ន្ធខ្ចី-សងសៀវភៅ<br>
-    ក្នុងរយៈពេលពីរសប្តាហ៍ដំបូងបន្ទាប់ពីបណ្ណាល័យបើកដំណើរការ សិស្សមិនត្រូវបានអនុញ្ញាតឱ្យខ្ចីសៀវភៅឡើយ។ ក្នុងអំឡុងពេលនេះ គ្រូបង្រៀននិងបណ្ណារក្សត្រូវបង្រៀនសិស្សអំពីការប្រើប្រាស់បណ្ណាល័យ ដូចជាការខ្ចី-សងសៀវភៅ ការជ្រើសរើសប្រភេទសៀវភៅ គោលការណ៍បណ្ណាល័យ និងការថែរក្សាសៀវភៅ។ សិស្សទាំងអស់អាចចាប់ផ្តើមខ្ចីសៀវភៅយកទៅអាននៅផ្ទះ នៅសប្តាហ៍ទី៣ បន្ទាប់ពីបានរៀនសូត្រអំពីការប្រើប្រាស់បណ្ណាល័យរួច។ សិស្សជាច្រើនអាចមានពេលវេលាទំនេរច្រើននៅពេលចេញលេង ដើម្បីមកខ្ចីសៀវភៅ។ ដូច្នេះ សិស្សគរុសិស្ស គឺជាយន្តការពិសេសក្នុងការជួយបណ្ណារក្សកត់ត្រាការខ្ចី-សងដ៏មមាញឹកនេះ ឱ្យបានទៀងទាត់ ទាន់ពេលវេលា គ្រប់គ្រាន់ និងត្រឹមត្រូវ។ ខាងក្រោមនេះជាការរៀបចំបណ្ណាល័យសិស្សគរុសិស្ស និងដំណើរការខ្ចី-សងសៀវភៅ៖
-</p>
-      </div>
+	<div class="tab-content" id="tab2">
+		<div class="container-fluid">
+			<div class="section-header">
+				<h2>គ) សៀវភៅកត់ត្រាសកម្មភាពអំណាន (Activity Log)</h2>
+			<p>
+					Activity Log - កត់ត្រាលម្អិតនៃសកម្មភាព
+					និងលទ្ធផលក្នុងបណ្ណាល័យ។
+				</p>
+				<p>
+					សៀវភៅនេះ ត្រូវតម្កល់ទុកនៅក្នុងបណ្ណាល័យ
+					សម្រាប់គ្រូប្រចាំថ្នាក់នីមួយៗកត់ត្រាពីសកម្មភាពអំណាន
+					ដែលពួកគេបានដឹកនាំក្នុងម៉ោងបណ្ណាល័យ។
+					ព័ត៌មាននេះអាចជួយគណៈគ្រប់គ្រងសាលា
+					ឱ្យដឹងអំពីសកម្មភាពដែលលោកគ្រូ
+					អ្នកគ្រូបានធ្វើក្នុងម៉ោងបណ្ណាល័យ។
+				</p>			</div>
+			<div class="input-group">
+				<label>🏫 សាលា:</label>
+				<input type="text" id="tab2_school" placeholder="ឈ្មោះសាលា" oninput="syncSchoolName(this.value)">
+				<label>📅 រយៈពេល:</label>
+				<input type="month" id="tab2_month">
+				<input type="text" class="form-control search-box no-print" placeholder="🔍 ស្វែងរកថ្នាក់/សកម្មភាព/ឈ្មោះគ្រូ..." onkeyup="filterTable('tab2Table', this.value)">
+			</div>
+			<div class="table-wrapper">
+				<table id="tab2Table">
+					<thead>
+						<tr>
+							<th>កាលបរិច្ឆេទ</th>
+							<th>ថ្នាក់</th>
+							<th>ប្រភេទអំណាន</th>
+							<th>ចំណងជើងរឿង</th>
+							<th>ចំនួនសិស្ស</th>
+							<th>ឈ្មោះគ្រូ</th>
+							<th>ហត្ថលេខា</th>
+						</tr>
+					</thead>
+					<tbody id="tab2Body"></tbody>
+				</table>
+			</div>
+			<div class="control-panel no-print">
+				<button onclick="addTab2Row()">➕ បន្ថែមជួរ</button>
+			</div>
+		</div>
+	</div>
 
-      <div class="input-group">
-        <label>🏫 សាលា:</label>
-        <input type="text" id="tab1_school" placeholder="សាលាបឋមសិក្សា រោគ">
-        <label>📅 ខែ/ឆ្នាំ:</label>
-        <input type="month" id="tab1_month">
-      </div>
+	<div class="tab-content" id="tab3">
+		<div class="container-fluid">
+			<div class="section-header">
+				<h2>ឃ) បញ្ជីសារពើភ័ណ្ឌសៀវភៅ (Inventory List)</h2>
+					<p>
+					Inventory List - បញ្ជីលម្អិតសៀវភៅក្នុងបណ្ណាល័យ
+					ដែលត្រូវបិទក្នុងរយៈពេលមិនលើសពីមួយខែក្រោយបញ្ជីរួម។
+				</p>
+				<p>
+					- លេខសារពើភ័ណ្ឌ៖ សៀវភៅមួយក្បាលមានលេខសារពើភ័ណ្ឌតែមួយគត់
+					ដោយផ្ដើមពីលេខ ០០០១។ បណ្ណារក្ស
+					គួរចុះលេខសារពើភ័ណ្ឌនៅត្រាក្នុងបណ្ណាល័យ។
+					<br>ការណើសៀវភៅដូចៗគ្នា ចូលមកបណ្ណាល័យក្នុងថ្ងៃជាមួយគ្នា
+					ត្រូវចុះលេខសារពើភ័ណ្ឌតែទីមួយ និងទីបញ្ចប់តែម្តង
+					ដោយប្រើសញ្ញាព្រួញ (↓)។ <br>សូមមើលឧទាហរណ៍
+					របៀបចុះលេខនេះក្នុងតារាងខាងក្រោម។<br>
+					- ថ្ងៃខែឆ្នាំចូល៖ ត្រូវស្រង់ចេញពីបញ្ជីរួម។<br>
+					- ឈ្មោះអ្នកនិពន្ធ៖ សរសេរឈ្មោះពេញ
+					និងមិនត្រូវចុះគោរមងាររបស់អ្នកនិពន្ធទេ។<br>
+					សម្គាល់៖<br>
+					□ ការចុះបញ្ជីសារពើភ័ណ្ឌ ត្រូវអនុវត្តមិនអោយលើសពីមួយខែ
+					ក្រោយពីចុះបញ្ជីរួម។<br>
+					□ បញ្ជីសារពើភ័ណ្ឌ ត្រូវតែបិទជិតសៀវភៅ ដើម្បីជៀសវាងការបាត់បង់។
+				</p>			</div>
+			<div class="input-group">
+				<label>🏫 សាលា:</label>
+				<input type="text" id="tab3_school" placeholder="ឈ្មោះសាលា" oninput="syncSchoolName(this.value)">
+				<label>📅 ខែ/ឆ្នាំ:</label>
+				<input type="month" id="tab3_month">
+				<input type="text" class="form-control search-box no-print" placeholder="🔍 ស្វែងរកចំណងជើង/អ្នកនិពន្ធ/លេខកូដ..." onkeyup="filterTable('tab3Table', this.value)">
+			</div>
+			<div class="table-wrapper">
+				<table id="tab3Table">
+					<thead>
+						<tr>
+							<th>លេខសារពើភ័ណ្ឌ</th>
+							<th>ថ្ងៃខែឆ្នាំចូល</th>
+							<th>ចំណងជើង</th>
+							<th>ឈ្មោះអ្នកនិពន្ធ</th>
+							<th>គ្រឹះស្ថាន</th>
+							<th>ឆ្នាំបោះពុម្ព</th>
+							<th>លេខកូដ DDC</th>
+							<th>ប្រភេទផ្ដើម</th>
+							<th>កម្រិត</th>
+						</tr>
+					</thead>
+					<tbody id="tab3Body"></tbody>
+				</table>
+			</div>
+			<div class="control-panel no-print">
+				<button onclick="addTab3Row()">➕ បន្ថែមជួរ</button>
+			</div>
+		</div>
+	</div>
 
-      <div class="control-panel no-print">
-        <button class="btn-success" onclick="openLoanModal()">➕ ខ្ចីសៀវភៅថ្មី (Open Form)</button>
-      </div>
+	<div class="tab-content" id="tab4">
+		<div class="container-fluid">
+			<div class="section-header">
+				<h2>ង) របាយការណ៍វឌ្ឍនភាពបណ្ណាល័យ (Progress Report)</h2>
+				<p>ស្ថិតិសរុប និងការវាយតម្លៃសកម្មភាពបណ្ណាល័យប្រចាំខែ/ឆមាស/ឆ្នាំ។</p>
+			</div>
+			<div class="input-group">
+				<label>🏫 សាលា:</label>
+				<input type="text" id="tab4_school" placeholder="ឈ្មោះសាលា" oninput="syncSchoolName(this.value)">
+				<label>📅 ខែ/ឆ្នាំ:</label>
+				<input type="month" id="tab4_month">
+				<label>កាលបរិច្ឆេទរបាយការណ៍:</label>
+				<select id="rep_period">
+					<option value="">-- ជ្រើសរើស --</option>
+					<option value="monthly">ប្រចាំខែ</option>
+					<option value="semester">ប្រចាំឆមាស</option>
+					<option value="yearly">ប្រចាំឆ្នាំ</option>
+				</select>
+				<label>ឆ្នាំសិក្សា:</label>
+				<input type="text" id="rep_year" placeholder="ឧ: ២០២៥-២០២៦" style="max-width: 120px;">
+			</div>
 
-      <div class="table-wrapper">
-        <table id="tab1Table">
-          <thead>
-            <tr>
-              <th>ល.រ</th>
-              <th>គោត្តនាម</th>
-              <th>នាមខ្លួន</th>
-              <th>ភេទ</th>
-              <th>ថ្នាក់</th>
-              <th>ចំណងជើងសៀវភៅ</th>
-              <th>លេខ Acc</th>
-              <th>កាលបរិច្ឆេទខ្ចី</th>
-              <th>ហត្ថលេខាខ្ចី</th>
-              <th>កាលបរិច្ឆេទសង</th>
-              <th>ហត្ថលេខាសង</th>
-              <th>ផ្សេងៗ</th>
-              <th class="no-print">សកម្មភាព</th>
-            </tr>
-          </thead>
-          <tbody id="tab1Body"></tbody>
-        </table>
-      </div>
-    </div>
-  </div>
+			<div style="border:1px solid #bdc3c7; padding:12px; border-radius:4px; margin:10px 0; background:#fff;">
+				<h3 style="font-size:12px; color:#1a5490; margin-bottom:8px; font-weight: bold;">📊 ស្ថិតិលម្អិត</h3>
+				<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:10px;">
+					<div>
+						<label style="font-size:11px;">ចំនួនគ្រូសរុប (ស្រី):</label>
+						<div style="display:flex; gap:4px;">
+							<input type="number" id="rep_teachers_total" placeholder="សរុប">
+							<input type="number" id="rep_teachers_female" placeholder="ស្រី">
+						</div>
+					</div>
+					<div>
+						<label style="font-size:11px;">ចំនួនសិស្សសរុប (ស្រី):</label>
+						<div style="display:flex; gap:4px;">
+							<input type="number" id="rep_students_total" placeholder="សរុប">
+							<input type="number" id="rep_students_female" placeholder="ស្រី">
+						</div>
+					</div>
+					<div>
+						<label style="font-size:11px;">ចំនួនថ្នាក់សរុប:</label>
+						<input type="number" id="rep_classes">
+					</div>
+					<div>
+						<label style="font-size:11px;">ចំនួនសៀវភៅ (ចំណងជើង/ក្បាល):</label>
+						<div style="display:flex; gap:4px;">
+							<input type="number" id="rep_books_titles" placeholder="ចំណងជើង">
+							<input type="number" id="rep_books_copies" placeholder="ក្បាល">
+						</div>
+					</div>
+				</div>
+			</div>
 
-  <div class="tab-content" id="tab2">
-    <div class="container">
-      <div class="section-header">
-        <h2>គ) សៀវភៅកត់ត្រាសកម្មភាពអំណាន</h2>
-           <p>Activity Log - កត់ត្រាលម្អិតនៃសកម្មភាព និងលទ្ធផលក្នុងបណ្ណាល័យ។</p><p>សៀវភៅនេះ ត្រូវតម្កល់ទុកនៅក្នុងបណ្ណាល័យ សម្រាប់គ្រូប្រចាំថ្នាក់នីមួយៗកត់ត្រាពីសកម្មភាពអំណាន ដែលពួកគេបានដឹកនាំក្នុងម៉ោងបណ្ណាល័យ។ ព័ត៌មាននេះអាចជួយគណៈគ្រប់គ្រងសាលា ឱ្យដឹងអំពីសកម្មភាពដែលលោកគ្រូ អ្នកគ្រូបានធ្វើក្នុងម៉ោងបណ្ណាល័យ។
-</p>
-</div>
+			<div style="border:1px solid #bdc3c7; padding:10px; border-radius:4px; margin:10px 0; background:#fff;">
+				<h3 style="font-size:12px; color:#1a5490; margin-bottom:8px; font-weight: bold;">📚 សកម្មភាពបណ្ណាល័យ</h3>
+				<table>
+					<thead>
+						<tr>
+							<th style="width: 5%">ល.រ</th>
+							<th>សកម្មភាព</th>
+							<th style="width: 30%">ចំនួនថ្នាក់</th>
+							<th style="width: 30%">ចំនួនដង</th>
+						</tr>
+					</thead>
+					<tbody id="repActivityBody">
+						<tr><td>១</td><td>អំណានចូលរួម</td><td><input type="number" class="act-class"></td><td><input type="number" class="act-count"></td></tr>
+						<tr><td>២</td><td>អំណានឮ</td><td><input type="number" class="act-class"></td><td><input type="number" class="act-count"></td></tr>
+						<tr><td>៣</td><td>អំណានដៃគូ</td><td><input type="number" class="act-class"></td><td><input type="number" class="act-count"></td></tr>
+						<tr><td>៤</td><td>អំណានបុគ្គល</td><td><input type="number" class="act-class"></td><td><input type="number" class="act-count"></td></tr>
+					</tbody>
+				</table>
+			</div>
 
-      <div class="input-group">
-        <label>🏫 សាលា:</label>
-        <input type="text" id="tab2_school" placeholder="សាលាបឋមសិក្សា រោគ">
-        <label>📅 រយៈពេល:</label>
-        <input type="month" id="tab2_month">
-      </div>
+			<div style="border:1px solid #bdc3c7; padding:10px; border-radius:4px; margin:10px 0; background:#fff;">
+				<h3 style="font-size:12px; color:#1a5490; margin-bottom:8px; font-weight: bold;">📖 ស្ថិតិខ្ចី-សង</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>ក្រុមថ្នាក់</th>
+							<th>សិស្សបានខ្ចី (នាក់)</th>
+							<th>សៀវភៅខ្ចី (ក្បាល)</th>
+							<th>សៀវភៅសង (ក្បាល)</th>
+						</tr>
+					</thead>
+					<tbody id="repLoanBody">
+						<tr><td>ថ្នាក់ទី១</td><td><input type="number" class="loan-stu" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-bx" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-br" oninput="calculateReportTotals()"></td></tr>
+						<tr><td>ថ្នាក់ទី២</td><td><input type="number" class="loan-stu" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-bx" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-br" oninput="calculateReportTotals()"></td></tr>
+						<tr><td>ថ្នាក់ទី៣</td><td><input type="number" class="loan-stu" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-bx" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-br" oninput="calculateReportTotals()"></td></tr>
+						<tr><td>ថ្នាក់ទី៤</td><td><input type="number" class="loan-stu" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-bx" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-br" oninput="calculateReportTotals()"></td></tr>
+						<tr><td>ថ្នាក់ទី៥</td><td><input type="number" class="loan-stu" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-bx" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-br" oninput="calculateReportTotals()"></td></tr>
+						<tr><td>ថ្នាក់ទី៦</td><td><input type="number" class="loan-stu" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-bx" oninput="calculateReportTotals()"></td><td><input type="number" class="loan-br" oninput="calculateReportTotals()"></td></tr>
+						<tr style="font-weight:bold; background:#eaeded;">
+							<td>សរុប</td>
+							<td><input type="number" id="rep_total_stud" readonly="" style="font-weight:bold; background:#eee;"></td>
+							<td><input type="number" id="rep_total_borrow" readonly="" style="font-weight:bold; background:#eee;"></td>
+							<td><input type="number" id="rep_total_return" readonly="" style="font-weight:bold; background:#eee;"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
-      <div class="table-wrapper">
-        <table id="tab2Table">
-          <thead>
-            <tr>
-              <th>កាលបរិច្ឆេទ</th>
-              <th>ថ្នាក់</th>
-              <th>ប្រភេទអំណាន</th>
-              <th>ចំណងជើងរឿង</th>
-              <th>ចំនួនសិស្ស</th>
-              <th>ឈ្មោះគ្រូ</th>
-            </tr>
-          </thead>
-          <tbody id="tab2Body"></tbody>
-        </table>
-      </div>
-      <div class="control-panel no-print">
-        <button onclick="addTab2Row()">➕ បន្ថែមជួរ</button>
-      </div>
-    </div>
-  </div>
+			<div style="border:1px solid #bdc3c7; padding:10px; border-radius:4px; margin:10px 0; background:#fff;">
+				<label style="font-size:11px; font-weight:600; color:#1a5490;">📝 បញ្ហា និងសំណូមពរ:</label>
+				<textarea id="rep_comments" placeholder="សរសេរព័ត៌មានលម្អិតបន្ថែម..." rows="3"></textarea>
+			</div>
+		</div>
+	</div>
 
-  <div class="tab-content" id="tab3">
-    <div class="container">
-      <div class="section-header">
-        <h2>ឃ) បញ្ជីសារពើភ័ណ្ឌសៀវភៅ</h2>
-         <p>Inventory List - បញ្ជីលម្អិតសៀវភៅក្នុងបណ្ណាល័យ ដែលត្រូវបិទក្នុងរយៈពេលមិនលើសពីមួយខែក្រោយបញ្ជីរួម។</p><p>- លេខសារពើភ័ណ្ឌ៖ សៀវភៅមួយក្បាលមានលេខសារពើភ័ណ្ឌតែមួយគត់ ដោយផ្ដើមពីលេខ ០០០១។ បណ្ណារក្ស គួរចុះលេខសារពើភ័ណ្ឌនៅត្រាក្នុងបណ្ណាល័យ។ <br>ការណើសៀវភៅដូចៗគ្នា ចូលមកបណ្ណាល័យក្នុងថ្ងៃជាមួយគ្នា ត្រូវចុះលេខសារពើភ័ណ្ឌតែទីមួយ និងទីបញ្ចប់តែម្តង ដោយប្រើសញ្ញាព្រួញ (↓)។ <br>សូមមើលឧទាហរណ៍ របៀបចុះលេខនេះក្នុងតារាងខាងក្រោម។<br>
-- ថ្ងៃខែឆ្នាំចូល៖ ត្រូវស្រង់ចេញពីបញ្ជីរួម។<br>
-- ឈ្មោះអ្នកនិពន្ធ៖ សរសេរឈ្មោះពេញ និងមិនត្រូវចុះគោរមងាររបស់អ្នកនិពន្ធទេ។<br>
-សម្គាល់៖<br>
-□ ការចុះបញ្ជីសារពើភ័ណ្ឌ ត្រូវអនុវត្តមិនអោយលើសពីមួយខែ ក្រោយពីចុះបញ្ជីរួម។<br>
-□ បញ្ជីសារពើភ័ណ្ឌ ត្រូវតែបិទជិតសៀវភៅ ដើម្បីជៀសវាងការបាត់បង់។</p>
-      </div>
+	<div id="statusMsg" class="status-message mx-3"></div>
 
-      <div class="input-group">
-        <label>🏫 សាលា:</label>
-        <input type="text" id="tab3_school" placeholder="សាលាបឋមសិក្សា រោគ">
-        <label>📅 ខែ/ឆ្នាំ:</label>
-        <input type="month" id="tab3_month">
-      </div>
-
-      <div class="table-wrapper">
-        <table id="tab3Table">
-          <thead>
-            <tr>
-              <th>លេខសារពើភ័ណ្ឌ</th>
-              <th>ថ្ងៃខែឆ្នាំចូល</th>
-              <th>ចំណងជើង</th>
-              <th>ឈ្មោះអ្នកនិពន្ធ</th>
-              <th>គ្រឹះស្ថាន</th>
-              <th>ឆ្នាំបោះពុម្ព</th>
-              <th>លេខកូដ DDC</th>
-              <th>ប្រភេទផ្ដល់</th>
-              <th>កម្រិត</th>
-            </tr>
-          </thead>
-          <tbody id="tab3Body"></tbody>
-        </table>
-      </div>
-      <div class="control-panel no-print">
-        <button onclick="addTab3Row()">➕ បន្ថែមជួរ</button>
-      </div>
-    </div>
-  </div>
-
-  <div id="statusMsg" class="status-message"></div>
-
-  <div class="control-panel no-print" style="margin:16px; border-top:2px solid #2980b9; padding-top:12px;">
-    <div class="input-group" style="flex:1;">
-      <label>🔑 Key (ឧ: 01030401017-2026-2B):</label>
-      <input type="text" id="dataKey" placeholder="01030401017-2026">
-    </div>
-    <button class="btn-success" onclick="saveAllData()" style="margin-left:auto;">💾 រក្សាទុកទៅ Cloud</button>
-    <button class="btn-warning" onclick="loadAllData()">📥 ផ្ទុកពី Cloud</button>
-    <button onclick="window.print()">🖨️ Print / PDF</button>
-  </div>
+	<div class="control-panel no-print m-3" style="border-top: 2px solid #2980b9; padding-top: 12px">
+		<div class="input-group" style="flex: 1">
+			<label>🔑 លេខកូដសម្គាល់សាលា (Key):</label>
+			<input type="text" id="dataKey" placeholder="ឧទាហរណ៍: 01030401017-2026">
+		</div>
+		<button class="btn-success" onclick="saveAllData()">💾 រក្សាទុកទៅ Cloud</button>
+		<button class="btn-warning" onclick="loadAllData()">📥 ផ្ទុកពី Cloud</button>
+		<button onclick="window.print()">🖨️ បោះពុម្ព / ទាញយក PDF</button>
+	</div>
 </div>
 
 <div id="loanModal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h3 id="modalTitle">✍️ បំពេញព័ត៌មាន ខ្ចី-សងសៀវភៅ</h3>
-      <button onclick="closeLoanModal()" class="btn btn-danger btn-small">បិទ X</button>
-    </div>
-    
-    <input type="hidden" id="editRowIndex" value="">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h3 id="modalTitle">✍️ ព័ត៌មាន ខ្ចី-សងសៀវភៅ</h3>
+			<button onclick="closeLoanModal()" class="btn btn-danger btn-small">បិទ X</button>
+		</div>
+		<input type="hidden" id="editRowIndex" value="">
+		<div class="form-grid">
+			<div class="form-group">
+				<label>គោត្តនាម</label>
+				<input type="text" id="formLastName" placeholder="ឧ: គឹម">
+			</div>
+			<div class="form-group">
+				<label>នាមខ្លួន *</label>
+				<input type="text" id="formFirstName" placeholder="ឧ: សុភ័ក្ត្រ">
+			</div>
+			<div class="form-group">
+				<label>ភេទ</label>
+				<select id="formGender">
+					<option value="ប្រុស">ប្រុស</option>
+					<option value="ស្រី">ស្រី</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>ថ្នាក់ *</label>
+				<input type="text" id="formClass" placeholder="ឧ: 4A">
+			</div>
+			<div class="form-group">
+				<label>ចំណងជើងសៀវភៅ *</label>
+				<input type="text" id="formBookTitle" placeholder="ឈ្មោះសៀវភៅ">
+			</div>
+			<div class="form-group">
+				<label>លេខ Acc (Accession No.)</label>
+				<input type="text" id="formAccNum" placeholder="ឧ: 0124">
+			</div>
+			<div class="form-group">
+				<label>កាលបរិច្ឆេទខ្ចី *</label>
+				<input type="date" id="formBorrowDate">
+			</div>
+			<div class="form-group">
+				<label>កាលបរិច្ឆេទសង</label>
+				<input type="date" id="formReturnDate">
+			</div>
+		</div>
+		<div class="form-group">
+			<label>ផ្សេងៗ</label>
+			<input type="text" id="formRemarks" placeholder="សម្គាល់ផ្សេងៗ">
+		</div>
+		<div class="form-group">
+			<label>✍️ ហត្ថលេខាសិស្ស (គូសក្នុងប្រឡោះខាងក្រោម):</label>
+			<canvas id="sigCanvas" class="modal-canvas"></canvas>
+			<div style="margin-top: 5px; display: flex; gap: 5px">
+				<button type="button" onclick="clearSigCanvas('sigCanvas')" class="btn-small btn-warning">លុបហត្ថលេខា</button>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button onclick="closeLoanModal()" class="btn button btn-danger">បោះបង់</button>
+			<button onclick="submitLoanForm()" class="btn button btn-success">💾 រក្សាទុកចូលតារាង</button>
+		</div>
+	</div>
+</div>
 
-    <div class="form-grid">
-      <div class="form-group">
-        <label>គោត្តនាម (Last Name)</label>
-        <input type="text" id="formLastName" placeholder="ឧ: គឹម">
-      </div>
-      <div class="form-group">
-        <label>នាមខ្លួន (First Name)</label>
-        <input type="text" id="formFirstName" placeholder="ឧ: សុភ័ក្ត្រ">
-      </div>
-      <div class="form-group">
-        <label>ភេទ (Gender)</label>
-        <select id="formGender">
-          <option value="ប្រុស">ប្រុស</option>
-          <option value="ស្រី">ស្រី</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label>ថ្នាក់ (Class)</label>
-        <input type="text" id="formClass" placeholder="ឧ: 4A">
-      </div>
-      <div class="form-group">
-        <label>ចំណងជើងសៀវភៅ</label>
-        <input type="text" id="formBookTitle" placeholder="ឈ្មោះសៀវភៅ">
-      </div>
-      <div class="form-group">
-        <label>លេខ Acc (Accession No.)</label>
-        <input type="text" id="formAccNum" placeholder="ឧ: 0124">
-      </div>
-      <div class="form-group">
-        <label>កាលបរិច្ឆេទខ្ចី</label>
-        <input type="date" id="formBorrowDate">
-      </div>
-      <div class="form-group">
-        <label>កាលបរិច្ឆេទសង</label>
-        <input type="date" id="formReturnDate">
-      </div>
-    </div>
-
-    <div class="form-group" style="margin-bottom: 10px;">
-      <label>ផ្សេងៗ (Remarks)</label>
-      <input type="text" id="formRemarks" placeholder="ចំណាំផ្សេងៗ">
-    </div>
-
-    <div class="form-group">
-      <label>✍️ ហត្ថលេខាសិស្ស (គូសលើប្រឡោះខាងក្រោម):</label>
-      <canvas id="sigCanvas" class="modal-canvas"></canvas>
-      <div style="margin-top: 5px; display: flex; gap: 5px;">
-        <button type="button" onclick="clearSigCanvas()" class="btn-small btn-warning">លុបហត្ថលេខា</button>
-        <span id="sigStatus" style="font-size:10px; color:green; align-self:center;"></span>
-      </div>
-    </div>
-
-    <div class="modal-footer">
-      <button onclick="closeLoanModal()" class="btn-danger">បោះបង់</button>
-      <button onclick="submitLoanForm()" class="btn-success">💾 រក្សាទុកចូលតារាង</button>
-    </div>
-  </div>
+<div id="teacherSigModal" class="modal">
+	<div class="modal-content" style="max-width: 450px;">
+		<div class="modal-header">
+			<h3>✍️ ចុះហត្ថលេខាគ្រូដឹកនាំសកម្មភាព</h3>
+			<button onclick="closeTeacherSigModal()" class="btn btn-danger btn-small">បិទ X</button>
+		</div>
+		<div class="form-group">
+			<canvas id="teacherSigCanvas" class="modal-canvas" style="height: 180px;"></canvas>
+			<div style="margin-top: 8px; display: flex; gap: 5px">
+				<button type="button" onclick="clearSigCanvas('teacherSigCanvas')" class="btn-small btn-warning">លុប</button>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button onclick="closeTeacherSigModal()" class="btn btn-danger">បោះបង់</button>
+			<button onclick="saveTeacherSignature()" class="btn btn-success">💾 រក្សាទុកហត្ថលេខា</button>
+		</div>
+	</div>
 </div>
 
 <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
 
 <script>
-  // Firebase Configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyB35WLr1y5_QT3j-0x7Mb2F7QaaYXLdIcQ",
-    authDomain: "packagedemo-b600c.firebaseapp.com",
-    databaseURL: "https://packagedemo-b600c-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "packagedemo-b600c",
-    storageBucket: "packagedemo-b600c.firebasestorage.app",
-    messagingSenderId: "601958630212",
-    appId: "1:601958630212:web:e140ee683e203f3e464d11"
-  };
+	// Firebase Configuration
+	const firebaseConfig = {
+		apiKey: "AIzaSyB35WLr1y5_QT3j-0x7Mb2F7QaaYXLdIcQ",
+		authDomain: "packagedemo-b600c.firebaseapp.com",
+		databaseURL: "https://packagedemo-b600c-default-rtdb.asia-southeast1.firebasedatabase.app",
+		projectId: "packagedemo-b600c",
+		storageBucket: "packagedemo-b600c.firebasestorage.app",
+		messagingSenderId: "601958630212",
+		appId: "1:601958630212:web:e140ee683e203f3e464d11",
+	};
 
-  firebase.initializeApp(firebaseConfig);
-  const db = firebase.database();
+	firebase.initializeApp(firebaseConfig);
+	const db = firebase.database();
 
-  // Signature Canvas Global Variables
-  let sigCanvas, sigCtx, isDrawing = false, lastX, lastY;
-  let currentSignatureData = ""; 
+	// Global Interaction States
+	let activeCanvasId = "";
+	let currentSignatureData = "";
+	let targetTeacherCell = null; 
 
-  function initSigCanvas() {
-    sigCanvas = document.getElementById('sigCanvas');
-    sigCtx = sigCanvas.getContext('2d');
-    
-    const ratio = window.devicePixelRatio || 1;
-    sigCanvas.width = sigCanvas.offsetWidth * ratio;
-    sigCanvas.height = sigCanvas.offsetHeight * ratio;
-    sigCtx.scale(ratio, ratio);
-    sigCtx.strokeStyle = '#1a5490';
-    sigCtx.lineWidth = 3;
-    sigCtx.lineJoin = 'round';
-    sigCtx.lineCap = 'round';
-  }
+	function switchTab(index) {
+		document.querySelectorAll('.tab-content').forEach((el, i) => el.classList.toggle('active', i === index));
+		document.querySelectorAll('.tab-btn').forEach((el, i) => el.classList.toggle('active', i === index));
+	}
 
-  // Tab Switching
-  function switchTab(index) {
-    document.querySelectorAll('.tab-content').forEach((el, i) => {
-      el.classList.toggle('active', i === index);
-    });
-    document.querySelectorAll('.tab-btn').forEach((el, i) => {
-      el.classList.toggle('active', i === index);
-    });
-  }
+	function syncSchoolName(val) {
+		document.getElementById("schoolDisplay").textContent = "សាលារៀន៖ " + (val || "មិនទាន់កំណត់");
+		document.getElementById("tab0_school").value = val;
+		document.getElementById("tab1_school").value = val;
+		document.getElementById("tab2_school").value = val;
+		document.getElementById("tab3_school").value = val;
+		document.getElementById("tab4_school").value = val;
+	}
 
-  // Status Message
-  function showStatus(msg, type = 'info') {
-    const el = document.getElementById('statusMsg');
-    el.textContent = msg;
-    el.className = 'status-message show ' + type;
-    setTimeout(() => el.classList.remove('show'), 4000);
-  }
+	function showStatus(msg, type = 'info') {
+		const el = document.getElementById('statusMsg');
+		el.textContent = msg;
+		el.className = 'status-message show ' + type;
+		setTimeout(() => el.classList.remove('show'), 4000);
+	}
 
-  // TAB 0: Grand List
-  function addTab0Row(data = {}) {
-    const tbody = document.getElementById('tab0Body');
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td>${tbody.rows.length + 1}</td>
-      <td><input type="date" value="${data.date || ''}"></td>
-      <td contenteditable>${data.invNum || ''}</td>
-      <td contenteditable>${data.lit1 || ''}</td>
-      <td><input type="number" value="${data.lit1Total || 0}"></td>
-      <td contenteditable>${data.info1 || ''}</td>
-      <td><input type="number" value="${data.info1Total || 0}"></td>
-      <td contenteditable>${data.mag1 || ''}</td>
-      <td><input type="number" value="${data.mag1Total || 0}"></td>
-      <td contenteditable>${data.total || 0}</td>
-      <td contenteditable>${data.source || ''}</td>
-    `;
-    tbody.appendChild(tr);
-  }
+	// មុខងារ Filter ស្វែងរកទិន្នន័យក្នុងតារាង
+	function filterTable(tableId, query) {
+		const filter = query.toLowerCase();
+		const rows = document.querySelectorAll(`#${tableId} tbody tr`);
+		rows.forEach(row => {
+			const text = row.textContent.toLowerCase();
+			row.style.display = text.includes(filter) ? "" : "none";
+		});
+	}
 
-  // TAB 1: Loan Form Modal Open/Close
-  function openLoanModal(rowIndex = null) {
-    document.getElementById('loanModal').style.display = 'block';
-    initSigCanvas();
-    clearSigCanvas();
-    
-    const today = new Date().toISOString().split('T')[0];
-    
-    if (rowIndex === null) {
-      // Mode: Add New Loan
-      document.getElementById('modalTitle').textContent = "➕ ខ្ចីសៀវភៅថ្មី (Student Loan Form)";
-      document.getElementById('editRowIndex').value = "";
-      document.getElementById('formLastName').value = "";
-      document.getElementById('formFirstName').value = "";
-      document.getElementById('formGender').value = "ប្រុស";
-      document.getElementById('formClass').value = "";
-      document.getElementById('formBookTitle').value = "";
-      document.getElementById('formAccNum').value = "";
-      document.getElementById('formBorrowDate').value = today;
-      document.getElementById('formReturnDate').value = "";
-      document.getElementById('formRemarks').value = "";
-      currentSignatureData = "";
-    } else {
-      // Mode: Edit / Update Return
-      document.getElementById('modalTitle').textContent = "🔄 ធ្វើបច្ចុប្បន្នភាពទិន្នន័យ ខ្ចី-សង";
-      document.getElementById('editRowIndex').value = rowIndex;
-      
-      const tr = document.getElementById('tab1Body').rows[rowIndex];
-      document.getElementById('formLastName').value = tr.cells[1].innerText;
-      document.getElementById('formFirstName').value = tr.cells[2].innerText;
-      document.getElementById('formGender').value = tr.cells[3].innerText || "ប្រុស";
-      document.getElementById('formClass').value = tr.cells[4].innerText;
-      document.getElementById('formBookTitle').value = tr.cells[5].innerText;
-      document.getElementById('formAccNum').value = tr.cells[6].innerText;
-      document.getElementById('formBorrowDate').value = tr.cells[7].innerText;
-      document.getElementById('formReturnDate').value = tr.cells[9].innerText || today;
-      document.getElementById('formRemarks').value = tr.cells[11].innerText;
-      
-      // Load signature if exists
-      const img = tr.cells[8].querySelector('img');
-      currentSignatureData = img ? img.src : "";
-    }
-  }
+	// មុខងារត្រួតពិនិត្យ និងបម្លែងកាលបរិច្ឆេទជាសញ្ញា ⬇️ (Tab 0)
+	function checkTab0Dates() {
+		const rows = document.querySelectorAll("#tab0Body tr");
+		let lastValidDate = "";
 
-  function closeLoanModal() {
-    document.getElementById('loanModal').style.display = 'none';
-  }
+		rows.forEach((row, index) => {
+			const dateInput = row.cells[1].querySelector("input");
+			const overlay = row.cells[1].querySelector(".arrow-overlay");
+			if (!dateInput || !overlay) return;
 
-  // Submit/Save Form Data into Table Room
-  function submitLoanForm() {
-    const lastName = document.getElementById('formLastName').value.trim();
-    const firstName = document.getElementById('formFirstName').value.trim();
-    const gender = document.getElementById('formGender').value;
-    const className = document.getElementById('formClass').value.trim();
-    const bookTitle = document.getElementById('formBookTitle').value.trim();
-    const accNum = document.getElementById('formAccNum').value.trim();
-    const borrowDate = document.getElementById('formBorrowDate').value;
-    const returnDate = document.getElementById('formReturnDate').value;
-    const remarks = document.getElementById('formRemarks').value.trim();
-    
-    if(!firstName || !bookTitle) {
-      alert("សូមបំពេញឈ្មោះសិស្ស និង ចំណងជើងសៀវភៅ!");
-      return;
-    }
+			const currentVal = dateInput.value;
 
-    // Check canvas if student drew something new
-    const blank = document.createElement('canvas');
-    blank.width = sigCanvas.width;
-    blank.height = sigCanvas.height;
-    if (sigCanvas.toDataURL() !== blank.toDataURL()) {
-      currentSignatureData = sigCanvas.toDataURL('image/png');
-    }
+			if (index === 0) {
+				overlay.classList.remove("show");
+				if (currentVal) lastValidDate = currentVal;
+			} else {
+				if (currentVal && currentVal === lastValidDate) {
+					overlay.classList.add("show");
+				} else {
+					overlay.classList.remove("show");
+					if (currentVal) lastValidDate = currentVal;
+				}
+			}
+		});
+	}
 
-    const rowIndex = document.getElementById('editRowIndex').value;
-    const tbody = document.getElementById('tab1Body');
+	// មុខងារគណនាសរុបរួម (Tab 0)
+	function calculateTab0RowTotal(row) {
+		const copy1 = parseInt(row.cells[4].querySelector("input")?.value || 0);
+		const copy2 = parseInt(row.cells[6].querySelector("input")?.value || 0);
+		const copy3 = parseInt(row.cells[8].querySelector("input")?.value || 0);
+		const totalCell = row.cells[9];
+		
+		if (totalCell) {
+			totalCell.innerText = copy1 + copy2 + copy3;
+		}
+	}
 
-    let tr;
-    if (rowIndex === "") {
-      // Insert dynamic new row
-      tr = document.createElement('tr');
-      tbody.appendChild(tr);
-    } else {
-      // Use existing row index
-      tr = tbody.rows[rowIndex];
-    }
+	// TAB 0 Row Management
+	function addTab0Row(data = {}) {
+		const tbody = document.getElementById("tab0Body");
+		const tr = document.createElement("tr");
+		tr.innerHTML = `
+			<td>${tbody.rows.length + 1}</td>
+			<td>
+				<div class="arrow-date-container">
+					<input type="date" value="${data.date || ''}" onchange="checkTab0Dates()">
+					<div class="arrow-overlay" onclick="removeDateOverlay(this)">⬇️</div>
+				</div>
+			</td>
+			<td contenteditable>${data.invNum || ''}</td>
+			<td contenteditable>${data.lit1 || ''}</td>
+			<td><input type="number" value="${data.lit1Total || 0}" oninput="calculateTab0RowTotal(this.closest('tr'))"></td>
+			<td contenteditable>${data.info1 || ''}</td>
+			<td><input type="number" value="${data.info1Total || 0}" oninput="calculateTab0RowTotal(this.closest('tr'))"></td>
+			<td contenteditable>${data.mag1 || ''}</td>
+			<td><input type="number" value="${data.mag1Total || 0}" oninput="calculateTab0RowTotal(this.closest('tr'))"></td>
+			<td style="font-weight:bold; background:#faffbe;">${data.total || 0}</td>
+			<td contenteditable>${data.source || ''}</td>
+		`;
+		tbody.appendChild(tr);
+		checkTab0Dates();
+	}
 
-    const currentIdx = rowIndex === "" ? tbody.rows.length : parseInt(rowIndex) + 1;
+	function removeDateOverlay(overlayEl) {
+		overlayEl.classList.remove("show");
+		const input = overlayEl.previousElementSibling;
+		if (input) {
+			input.value = "";
+			input.focus();
+		}
+		checkTab0Dates();
+	}
 
-    tr.innerHTML = `
-      <td>${currentIdx}</td>
-      <td>${lastName}</td>
-      <td>${firstName}</td>
-      <td>${gender}</td>
-      <td>${className}</td>
-      <td>${bookTitle}</td>
-      <td>${accNum}</td>
-      <td>${borrowDate}</td>
-      <td>${currentSignatureData ? `<img src="${currentSignatureData}" style="max-height:30px; max-width:60px;">` : ''}</td>
-      <td>${returnDate}</td>
-      <td>${returnDate && currentSignatureData ? `<img src="${currentSignatureData}" style="max-height:30px; max-width:60px;">` : ''}</td>
-      <td>${remarks}</td>
-      <td class="no-print"><button class="btn-small btn-warning" onclick="openLoanModal(${currentIdx - 1})">កែប្រែ/សង</button></td>
-    `;
+	// TAB 2 Row Management
+	function addTab2Row(data = {}) {
+		const tbody = document.getElementById('tab2Body');
+		const tr = document.createElement('tr');
+		const selectedAct = data.actType || "";
+		
+		tr.innerHTML = `
+			<td><input type="date" value="${data.date || ''}"></td>
+			<td contenteditable>${data.class || ''}</td>
+			<td>
+				<select class="act-select">
+					<option value="">-- ជ្រើស --</option>
+					<option value="អំណានឮ" ${selectedAct==='អំណានឮ'?'selected':''}>អំណានឮ</option>
+					<option value="អំណានចូលរួម" ${selectedAct==='អំណានចូលរួម'?'selected':''}>អំណានចូលរួម</option>
+					<option value="អំណានដៃគូ" ${selectedAct==='អំណានដៃគូ'?'selected':''}>អំណានដៃគូ</option>
+					<option value="អំណានបុគ្គល" ${selectedAct==='អំណានបុគ្គល'?'selected':''}>អំណានបុគ្គល</option>
+				</select>
+			</td>
+			<td contenteditable>${data.title || ''}</td>
+			<td><input type="number" value="${data.count || 0}"></td>
+			<td contenteditable>${data.teacher || ''}</td>
+			<td style="text-align: center; cursor: pointer;" onclick="openTeacherSigModal(this)">
+				${data.sigData ? `<img src="${data.sigData}" style="max-height:25px;">` : `<button class="btn btn-small btn-warning no-print">✍️ គូស</button>`}
+			</td>
+		`;
+		tbody.appendChild(tr);
+	}
 
-    closeLoanModal();
-  }
+	// TAB 3 Row Management
+	function addTab3Row(data = {}) {
+		const tbody = document.getElementById("tab3Body");
+		const tr = document.createElement("tr");
+		tr.innerHTML = `
+			<td contenteditable>${data.accNum || ''}</td>
+			<td><input type="date" value="${data.date || ''}"></td>
+			<td contenteditable>${data.title || ''}</td>
+			<td contenteditable>${data.author || ''}</td>
+			<td contenteditable>${data.publisher || ''}</td>
+			<td><input type="number" value="${data.year || 2026}"></td>
+			<td contenteditable>${data.ddc || ''}</td>
+			<td contenteditable>${data.type || ''}</td>
+			<td contenteditable>${data.level || ''}</td>
+		`;
+		tbody.appendChild(tr);
+	}
 
-  // TAB 2: Activity Log
-  function addTab2Row(data = {}) {
-    const tbody = document.getElementById('tab2Body');
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td><input type="date" value="${data.date || ''}"></td>
-      <td contenteditable>${data.class || ''}</td>
-      <td contenteditable>${data.actType || ''}</td>
-      <td contenteditable>${data.title || ''}</td>
-      <td><input type="number" value="${data.count || 0}"></td>
-      <td contenteditable>${data.teacher || ''}</td>
-    `;
-    tbody.appendChild(tr);
-  }
+	// Report Auto Calculation (Tab 4)
+	function calculateReportTotals() {
+		let totalStu = 0, totalBx = 0, totalBr = 0;
+		document.querySelectorAll('.loan-stu').forEach(el => totalStu += Number(el.value || 0));
+		document.querySelectorAll('.loan-bx').forEach(el => totalBx += Number(el.value || 0));
+		document.querySelectorAll('.loan-br').forEach(el => totalBr += Number(el.value || 0));
+		
+		document.getElementById('rep_total_stud').value = totalStu;
+		document.getElementById('rep_total_borrow').value = totalBx;
+		document.getElementById('rep_total_return').value = totalBr;
+	}
 
-  // TAB 3: Inventory
-  function addTab3Row(data = {}) {
-    const tbody = document.getElementById('tab3Body');
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td contenteditable>${data.accNum || ''}</td>
-      <td><input type="date" value="${data.date || ''}"></td>
-      <td contenteditable>${data.title || ''}</td>
-      <td contenteditable>${data.author || ''}</td>
-      <td contenteditable>${data.publisher || ''}</td>
-      <td><input type="number" value="${data.year || 2026}"></td>
-      <td contenteditable>${data.ddc || ''}</td>
-      <td contenteditable>${data.type || ''}</td>
-      <td contenteditable>${data.level || ''}</td>
-    `;
-    tbody.appendChild(tr);
-  }
+	// Modal 1: Student Loan Actions
+	function openLoanModal(rowIndex = null) {
+		document.getElementById("loanModal").style.display = "block";
+		activeCanvasId = "sigCanvas";
+		clearSigCanvas("sigCanvas");
 
-  // Initialize Sample Blank Tables
-  for(let i = 0; i < 2; i++) {
-    addTab0Row();
-    addTab2Row();
-    addTab3Row();
-  }
+		const today = new Date().toISOString().split('T')[0];
 
-  // Gather Data from All Components
-  function gatherAllData() {
-    const data = {
-      meta: {
-        school: document.getElementById('tab1_school').value || 'សាលាបឋមសិក្សារោគ',
-        month: document.getElementById('tab1_month').value,
-        timestamp: new Date().toISOString()
-      },
-      tab0: [],
-      tab1: [],
-      tab2: [],
-      tab3: []
-    };
+		if (rowIndex === null) {
+			document.getElementById("modalTitle").textContent = "➕ ខ្ចីសៀវភៅថ្មី (Student Loan Form)";
+			document.getElementById("editRowIndex").value = "";
+			document.getElementById("formLastName").value = "";
+			document.getElementById("formFirstName").value = "";
+			document.getElementById("formGender").value = "ប្រុស";
+			document.getElementById("formClass").value = "";
+			document.getElementById("formBookTitle").value = "";
+			document.getElementById("formAccNum").value = "";
+			document.getElementById("formBorrowDate").value = today;
+			document.getElementById("formReturnDate").value = "";
+			document.getElementById("formRemarks").value = "";
+			currentSignatureData = "";
+		} else {
+			document.getElementById("modalTitle").textContent = "🔄 កែប្រែទិន្នន័យ ខ្ចី-សង";
+			document.getElementById("editRowIndex").value = rowIndex;
 
-    // Tab 0
-    document.querySelectorAll('#tab0Body tr').forEach(tr => {
-      if(tr.cells.length < 10) return;
-      data.tab0.push({
-        date: tr.cells[1].querySelector('input')?.value || '',
-        invNum: tr.cells[2].innerText || '',
-        lit1: tr.cells[3].innerText || '',
-        lit1Total: tr.cells[4].querySelector('input')?.value || 0,
-        info1: tr.cells[5].innerText || '',
-        info1Total: tr.cells[6].querySelector('input')?.value || 0,
-        mag1: tr.cells[7].innerText || '',
-        mag1Total: tr.cells[8].querySelector('input')?.value || 0,
-        source: tr.cells[10].innerText || ''
-      });
-    });
+			const tr = document.getElementById("tab1Body").rows[rowIndex];
+			document.getElementById("formLastName").value = tr.cells[1].innerText;
+			document.getElementById("formFirstName").value = tr.cells[2].innerText;
+			document.getElementById("formGender").value = tr.cells[3].innerText || "ប្រុស";
+			document.getElementById("formClass").value = tr.cells[4].innerText;
+			document.getElementById("formBookTitle").value = tr.cells[5].innerText;
+			document.getElementById("formAccNum").value = tr.cells[6].innerText;
+			document.getElementById("formBorrowDate").value = tr.cells[7].innerText;
+			document.getElementById("formReturnDate").value = tr.cells[9].innerText || today;
+			document.getElementById("formRemarks").value = tr.cells[11].innerText;
 
-    // Tab 1 (Loan Records)
-    document.querySelectorAll('#tab1Body tr').forEach(tr => {
-      if(tr.cells.length < 11) return;
-      data.tab1.push({
-        lastName: tr.cells[1].innerText,
-        firstName: tr.cells[2].innerText,
-        gender: tr.cells[3].innerText,
-        class: tr.cells[4].innerText,
-        bookTitle: tr.cells[5].innerText,
-        accNum: tr.cells[6].innerText,
-        borrowDate: tr.cells[7].innerText,
-        sigData: tr.cells[8].querySelector('img')?.src || '',
-        returnDate: tr.cells[9].innerText,
-        remarks: tr.cells[11].innerText
-      });
-    });
+			const img = tr.cells[8].querySelector("img");
+			currentSignatureData = img ? img.src : "";
+		}
+	}
 
-    // Tab 2
-    document.querySelectorAll('#tab2Body tr').forEach(tr => {
-      data.tab2.push({
-        date: tr.cells[0].querySelector('input')?.value || '',
-        class: tr.cells[1].innerText || '',
-        actType: tr.cells[2].innerText || '',
-        title: tr.cells[3].innerText || '',
-        count: tr.cells[4].querySelector('input')?.value || 0,
-        teacher: tr.cells[5].innerText || ''
-      });
-    });
+	function closeLoanModal() { document.getElementById("loanModal").style.display = "none"; }
 
-    // Tab 3
-    document.querySelectorAll('#tab3Body tr').forEach(tr => {
-      data.tab3.push({
-        accNum: tr.cells[0].innerText || '',
-        date: tr.cells[1].querySelector('input')?.value || '',
-        title: tr.cells[2].innerText || '',
-        author: tr.cells[3].innerText || '',
-        publisher: tr.cells[4].innerText || '',
-        year: tr.cells[5].querySelector('input')?.value || 2026,
-        ddc: tr.cells[6].innerText || '',
-        type: tr.cells[7].innerText || '',
-        level: tr.cells[8].innerText || ''
-      });
-    });
+	function submitLoanForm() {
+		const firstName = document.getElementById("formFirstName").value.trim();
+		const bookTitle = document.getElementById("formBookTitle").value.trim();
+		const classVal = document.getElementById("formClass").value.trim();
 
-    return data;
-  }
+		if (!firstName || !bookTitle || !classVal) {
+			alert("សូមបំពេញឈ្មោះសិស្ស, ថ្នាក់ និងចំណងជើងសៀវភៅជាដាច់ខាត!");
+			return;
+		}
 
-  // Save to Firebase Database
-  function saveAllData() {
-    const key = document.getElementById('dataKey').value.trim();
-    if (!key) {
-      showStatus('❌ សូមបញ្ចូលលេខសម្គាល់សាលា (Key)', 'error');
-      return;
-    }
+		const canv = document.getElementById("sigCanvas");
+		const blank = document.createElement('canvas');
+		blank.width = canv.width; blank.height = canv.height;
+		if (canv.toDataURL() !== blank.toDataURL()) {
+			currentSignatureData = canv.toDataURL("image/png");
+		}
 
-    const data = gatherAllData();
-    db.ref('libraryRecords/' + key).set(data)
-      .then(() => showStatus('✅ រក្សាទុកឡើង Cloud បានជោគជ័យ', 'success'))
-      .catch(e => showStatus('❌ មិនអាចរក្សាទុក: ' + e.message, 'error'));
-  }
+		const rowIndex = document.getElementById("editRowIndex").value;
+		const tbody = document.getElementById("tab1Body");
+		let tr;
 
-  // Load from Firebase
-  function loadAllData() {
-    const key = document.getElementById('dataKey').value.trim();
-    if (!key) {
-      showStatus('❌ សូមបញ្ចូលលេខសម្គាល់សាលា (Key)', 'error');
-      return;
-    }
+		if (rowIndex === "") {
+			tr = document.createElement("tr");
+			tbody.appendChild(tr);
+		} else {
+			tr = tbody.rows[rowIndex];
+		}
 
-    showStatus('⏳ កំពុងទាញយកទិន្នន័យ...', 'info');
+		const currentIdx = rowIndex === "" ? tbody.rows.length : parseInt(rowIndex) + 1;
+		const rDate = document.getElementById("formReturnDate").value;
 
-    db.ref('libraryRecords/' + key).get().then(snap => {
-      if (!snap.exists()) {
-        showStatus('❌ គ្មានទិន្នន័យសម្រាប់ស្វែងរកឡើយ', 'error');
-        return;
-      }
+		tr.innerHTML = `
+			<td>${currentIdx}</td>
+			<td>${document.getElementById("formLastName").value}</td>
+			<td>${firstName}</td>
+			<td>${document.getElementById("formGender").value}</td>
+			<td>${classVal}</td>
+			<td>${bookTitle}</td>
+			<td>${document.getElementById("formAccNum").value}</td>
+			<td>${document.getElementById("formBorrowDate").value}</td>
+			<td>${currentSignatureData ? `<img src="${currentSignatureData}" style="max-height:25px;">`:''}</td>
+			<td>${rDate}</td>
+			<td>${rDate && currentSignatureData ? `<img src="${currentSignatureData}" style="max-height:25px;">`:''}</td>
+			<td>${document.getElementById("formRemarks").value}</td>
+			<td class="no-print"><button class="btn-small btn-warning" onclick="openLoanModal(${currentIdx-1})">កែប្រែ/សង</button></td>
+		`;
+		closeLoanModal();
+	}
 
-      const data = snap.val();
-      
-      // Setup School Headers
-      const schoolName = data.meta?.school || '';
-      document.getElementById('tab0_school').value = schoolName;
-      document.getElementById('tab1_school').value = schoolName;
-      document.getElementById('tab2_school').value = schoolName;
-      document.getElementById('tab3_school').value = schoolName;
-      document.getElementById('schoolDisplay').textContent = "សាលា៖ " + schoolName;
+	// Modal 2: Teacher Signature Management
+	function openTeacherSigModal(cell) {
+		targetTeacherCell = cell;
+		document.getElementById("teacherSigModal").style.display = "block";
+		activeCanvasId = "teacherSigCanvas";
+		clearSigCanvas("teacherSigCanvas");
+	}
 
-      // Populate Tab 1 (Loans)
-      const tbody1 = document.getElementById('tab1Body');
-      tbody1.innerHTML = '';
-      (data.tab1 || []).forEach((row, i) => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${i + 1}</td>
-          <td>${row.lastName || ''}</td>
-          <td>${row.firstName || ''}</td>
-          <td>${row.gender || ''}</td>
-          <td>${row.class || ''}</td>
-          <td>${row.bookTitle || ''}</td>
-          <td>${row.accNum || ''}</td>
-          <td>${row.borrowDate || ''}</td>
-          <td>${row.sigData ? `<img src="${row.sigData}" style="max-height:30px; max-width:60px;">` : ''}</td>
-          <td>${row.returnDate || ''}</td>
-          <td>${row.returnDate && row.sigData ? `<img src="${row.sigData}" style="max-height:30px; max-width:60px;">` : ''}</td>
-          <td>${row.remarks || ''}</td>
-          <td class="no-print"><button class="btn-small btn-warning" onclick="openLoanModal(${i})">កែប្រែ/សង</button></td>
-        `;
-        tbody1.appendChild(tr);
-      });
+	function closeTeacherSigModal() {
+		document.getElementById("teacherSigModal").style.display = "none";
+		targetTeacherCell = null;
+	}
 
-      // Populate Tab 0
-      document.getElementById('tab0Body').innerHTML = '';
-      (data.tab0 || []).forEach(row => addTab0Row(row));
+	function saveTeacherSignature() {
+		if(!targetTeacherCell) return;
+		const canv = document.getElementById("teacherSigCanvas");
+		const blank = document.createElement('canvas');
+		blank.width = canv.width; blank.height = canv.height;
 
-      // Populate Tab 2
-      document.getElementById('tab2Body').innerHTML = '';
-      (data.tab2 || []).forEach(row => addTab2Row(row));
+		if (canv.toDataURL() !== blank.toDataURL()) {
+			const dataUrl = canv.toDataURL("image/png");
+			targetTeacherCell.innerHTML = `<img src="${dataUrl}" style="max-height:25px;">`;
+		}
+		closeTeacherSigModal();
+	}
 
-      // Populate Tab 3
-      document.getElementById('tab3Body').innerHTML = '';
-      (data.tab3 || []).forEach(row => addTab3Row(row));
+	function clearSigCanvas(id) {
+		const canv = document.getElementById(id);
+		if(canv) {
+			const ctx = canv.getContext("2d");
+			ctx.clearRect(0, 0, canv.width, canv.height);
+		}
+	}
 
-      showStatus('✅ បានផ្ទុកទិន្នន័យពី Cloud រួចរាល់', 'success');
-    }).catch(e => showStatus('❌ ដំណើរការខុសប្រក្រតី: ' + e.message, 'error'));
-  }
+	// Gather Matrix for JSON/Firebase Storage
+	function gatherAllData() {
+		const data = {
+			meta: {
+				school: document.getElementById("tab0_school").value || "សាលាមិនស្គាល់",
+				month: document.getElementById("tab0_month").value || "",
+				timestamp: new Date().toISOString()
+			},
+			tab0: [], tab1: [], tab2: [], tab3: [],
+			report: {
+				period: document.getElementById('rep_period').value,
+				year: document.getElementById('rep_year').value,
+				t_total: document.getElementById('rep_teachers_total').value,
+				t_female: document.getElementById('rep_teachers_female').value,
+				s_total: document.getElementById('rep_students_total').value,
+				s_female: document.getElementById('rep_students_female').value,
+				classes: document.getElementById('rep_classes').value,
+				b_titles: document.getElementById('rep_books_titles').value,
+				b_copies: document.getElementById('rep_books_copies').value,
+				comments: document.getElementById('rep_comments').value,
+				activities: [], circulation: []
+			}
+		};
 
-  // Signature Draw Logic
-  function clearSigCanvas() {
-    sigCtx.clearRect(0, 0, sigCanvas.width, sigCanvas.height);
-  }
+		// Tab 0
+		let lastValidDate = "";
+		document.querySelectorAll("#tab0Body tr").forEach(tr => {
+			let inputDate = tr.cells[1].querySelector("input")?.value || "";
+			const overlay = tr.cells[1].querySelector(".arrow-overlay");
+			
+			// បើសិនជាមាន overlay បង្ហាញសញ្ញា ⬇️ មានន័យថាវាប្រើប្រាស់ date ដូចជួរលើ
+			if (overlay && overlay.classList.contains("show") && inputDate === "") {
+				inputDate = lastValidDate;
+			} else if (inputDate) {
+				lastValidDate = inputDate;
+			}
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const canvas = document.getElementById('sigCanvas');
-    if (canvas) {
-      canvas.addEventListener('pointerdown', (e) => {
-        isDrawing = true;
-        const rect = canvas.getBoundingClientRect();
-        lastX = e.clientX - rect.left;
-        lastY = e.clientY - rect.top;
-      });
+			data.tab0.push({
+				date: inputDate,
+				invNum: tr.cells[2].innerText, lit1: tr.cells[3].innerText,
+				lit1Total: tr.cells[4].querySelector("input")?.value || 0,
+				info1: tr.cells[5].innerText, info1Total: tr.cells[6].querySelector("input")?.value || 0,
+				mag1: tr.cells[7].innerText, mag1Total: tr.cells[8].querySelector("input")?.value || 0,
+				total: tr.cells[9].innerText, source: tr.cells[10].innerText
+			});
+		});
 
-      canvas.addEventListener('pointermove', (e) => {
-        if (!isDrawing) return;
-        const rect = canvas.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        sigCtx.beginPath();
-        sigCtx.moveTo(lastX, lastY);
-        sigCtx.lineTo(x, y);
-        sigCtx.stroke();
-        lastX = x; lastY = y;
-      });
+		// Tab 1
+		document.querySelectorAll("#tab1Body tr").forEach(tr => {
+			data.tab1.push({
+				lastName: tr.cells[1].innerText, firstName: tr.cells[2].innerText,
+				gender: tr.cells[3].innerText, class: tr.cells[4].innerText,
+				bookTitle: tr.cells[5].innerText, accNum: tr.cells[6].innerText,
+				borrowDate: tr.cells[7].innerText, sigData: tr.cells[8].querySelector("img")?.src || "",
+				returnDate: tr.cells[9].innerText, remarks: tr.cells[11].innerText
+			});
+		});
 
-      canvas.addEventListener('pointerup', () => { isDrawing = false; });
-      canvas.addEventListener('pointerleave', () => { isDrawing = false; });
-    }
-  });
+		// Tab 2
+		document.querySelectorAll("#tab2Body tr").forEach(tr => {
+			data.tab2.push({
+				date: tr.cells[0].querySelector("input")?.value || "",
+				class: tr.cells[1].innerText,
+				actType: tr.cells[2].querySelector("select")?.value || "",
+				title: tr.cells[3].innerText,
+				count: tr.cells[4].querySelector("input")?.value || 0,
+				teacher: tr.cells[5].innerText,
+				sigData: tr.cells[6].querySelector("img")?.src || ""
+			});
+		});
+
+		// Tab 3
+		document.querySelectorAll("#tab3Body tr").forEach(tr => {
+			data.tab3.push({
+				accNum: tr.cells[0].innerText, date: tr.cells[1].querySelector("input")?.value || "",
+				title: tr.cells[2].innerText, author: tr.cells[3].innerText, publisher: tr.cells[4].innerText,
+				year: tr.cells[5].querySelector("input")?.value || 2026, ddc: tr.cells[6].innerText,
+				type: tr.cells[7].innerText, level: tr.cells[8].innerText
+			});
+		});
+
+		// Tab 4 arrays
+		document.querySelectorAll('#repActivityBody tr').forEach(tr => {
+			data.report.activities.push({
+				cls: tr.querySelector('.act-class')?.value || 0,
+				cnt: tr.querySelector('.act-count')?.value || 0
+			});
+		});
+		document.querySelectorAll('#repLoanBody tr').forEach((tr, i) => {
+			if(i < 6) {
+				data.report.circulation.push({
+					stu: tr.querySelector('.loan-stu')?.value || 0,
+					bx: tr.querySelector('.loan-bx')?.value || 0,
+					br: tr.querySelector('.loan-br')?.value || 0
+				});
+			}
+		});
+
+		return data;
+	}
+
+	// Firebase Synchronization Core
+	function saveAllData() {
+		const key = document.getElementById("dataKey").value.trim();
+		if (!key) { showStatus("❌ សូមបញ្ចូលលេខកូដសម្គាល់សាលា (Key) ជាមុនសិន!", "error"); return; }
+		
+		showStatus("⏳ កំពុងរក្សាទុកទិន្នន័យ...", "info");
+		db.ref("libraryRecords/" + key).set(gatherAllData())
+			.then(() => showStatus("✅ រក្សាទុកឡើង Cloud បានជោគជ័យ", "success"))
+			.catch(e => showStatus("❌ បរាជ័យ: " + e.message, "error"));
+	}
+
+	function loadAllData() {
+		const key = document.getElementById("dataKey").value.trim();
+		if (!key) { showStatus("❌ សូមបញ្ចូលលេខកូដសម្គាល់សាលា (Key)!", "error"); return; }
+
+		showStatus("⏳ កំពុងទាញយកទិន្នន័យ...", "info");
+		db.ref("libraryRecords/" + key).get().then(snap => {
+			if (!snap.exists()) { showStatus("❌ មិនមានទិន្នន័យសម្រាប់សាលានេះឡើយ", "error"); return; }
+			
+			const data = snap.val();
+			syncSchoolName(data.meta?.school || "");
+			if(data.meta?.month) document.getElementById("tab0_month").value = data.meta.month;
+
+			document.getElementById("tab0Body").innerHTML = "";
+			let lastLoadedDate = "";
+			(data.tab0 || []).forEach(row => {
+				// បើ date ស្មើនឹងជួរមុន ពេលបង្កើត row វានឹងស្គាល់ហើយបម្លែងជា ⬇️ ដោយស្វ័យប្រវត្តិ
+				addTab0Row(row);
+			});
+
+			const tbody1 = document.getElementById("tab1Body"); tbody1.innerHTML = "";
+			(data.tab1 || []).forEach((row, i) => {
+				const tr = document.createElement("tr");
+				tr.innerHTML = `
+					<td>${i + 1}</td><td>${row.lastName || ""}</td><td>${row.firstName || ""}</td><td>${row.gender || ""}</td>
+					<td>${row.class || ""}</td><td>${row.bookTitle || ""}</td><td>${row.accNum || ""}</td><td>${row.borrowDate || ""}</td>
+					<td>${row.sigData ? `<img src="${row.sigData}" style="max-height:25px;">`:''}</td><td>${row.returnDate || ""}</td>
+					<td>${row.returnDate && row.sigData ? `<img src="${row.sigData}" style="max-height:25px;">`:''}</td><td>${row.remarks || ""}</td>
+					<td class="no-print"><button class="btn-small btn-warning" onclick="openLoanModal(${i})">កែប្រែ/សង</button></td>
+				`;
+				tbody1.appendChild(tr);
+			});
+
+			document.getElementById("tab2Body").innerHTML = "";
+			(data.tab2 || []).forEach(row => addTab2Row(row));
+
+			document.getElementById("tab3Body").innerHTML = "";
+			(data.tab3 || []).forEach(row => addTab3Row(row));
+
+			if(data.report) {
+				const r = data.report;
+				document.getElementById('rep_period').value = r.period || "";
+				document.getElementById('rep_year').value = r.year || "";
+				document.getElementById('rep_teachers_total').value = r.t_total || "";
+				document.getElementById('rep_teachers_female').value = r.t_female || "";
+				document.getElementById('rep_students_total').value = r.s_total || "";
+				document.getElementById('rep_students_female').value = r.s_female || "";
+				document.getElementById('rep_classes').value = r.classes || "";
+				document.getElementById('rep_books_titles').value = r.b_titles || "";
+				document.getElementById('rep_books_copies').value = r.b_copies || "";
+				document.getElementById('rep_comments').value = r.comments || "";
+
+				const actRows = document.querySelectorAll('#repActivityBody tr');
+				(r.activities || []).forEach((act, idx) => {
+					if(actRows[idx]) {
+						actRows[idx].querySelector('.act-class').value = act.cls || "";
+						actRows[idx].querySelector('.act-count').value = act.cnt || "";
+					}
+				});
+
+				const loanRows = document.querySelectorAll('#repLoanBody tr');
+				(r.circulation || []).forEach((circ, idx) => {
+					if(loanRows[idx]) {
+						loanRows[idx].querySelector('.loan-stu').value = circ.stu || "";
+						loanRows[idx].querySelector('.loan-bx').value = circ.bx || "";
+						loanRows[idx].querySelector('.loan-br').value = circ.br || "";
+					}
+				});
+				calculateReportTotals();
+			}
+			showStatus("✅ បានផ្ទុកទិន្នន័យពី Cloud រួចរាល់", "success");
+		}).catch(e => showStatus("❌ ដំណើរការខុសប្រក្រតី: " + e.message, "error"));
+	}
+
+	// Multi Canvas Initializer with Pointer support
+	document.addEventListener("DOMContentLoaded", () => {
+		for (let i = 0; i < 3; i++) { addTab0Row(); addTab2Row(); addTab3Row(); }
+		
+		const setupCanvasListeners = (canvasId) => {
+			const canv = document.getElementById(canvasId);
+			if (!canv) return;
+			const ctx = canv.getContext("2d");
+			let isDrawing = false;
+			let lastX = 0, lastY = 0;
+
+			ctx.strokeStyle = "#1a5490";
+			ctx.lineWidth = 2.5;
+			ctx.lineJoin = "round";
+			ctx.lineCap = "round";
+
+			const getPos = (e) => {
+				const rect = canv.getBoundingClientRect();
+				return { 
+					x: (e.clientX || (e.touches && e.touches[0].clientX)) - rect.left, 
+					y: (e.clientY || (e.touches && e.touches[0].clientY)) - rect.top 
+				};
+			};
+
+			const start = (e) => { isDrawing = true; const p = getPos(e); lastX = p.x; lastY = p.y; };
+			const move = (e) => {
+				if (!isDrawing) return; if(e.touches) e.preventDefault();
+				const p = getPos(e);
+				ctx.beginPath(); ctx.moveTo(lastX, lastY); ctx.lineTo(p.x, p.y); ctx.stroke();
+				lastX = p.x; lastY = p.y;
+			};
+			const stop = () => isDrawing = false;
+
+			canv.addEventListener("mousedown", start); canv.addEventListener("mousemove", move); window.addEventListener("mouseup", stop);
+			canv.addEventListener("touchstart", start); canv.addEventListener("touchmove", move); canv.addEventListener("touchend", stop);
+		};
+
+		setupCanvasListeners("sigCanvas");
+		setupCanvasListeners("teacherSigCanvas");
+	});
 </script>
 <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;e3c1c9af36de41759418005494a48906&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
 </template>
@@ -14462,8 +14725,8 @@ onValue(ref(db,'teacherData'),(snap)=>{
                 <div class="bg-light p-8 rounded-xl">
                     <h3 class="text-2xl font-bold text-dark mb-6">Contact Information</h3>
                     <div class="space-y-6">
-                        <div class="flex"><div class="flex-shrink-0"><div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white"><i class="fas fa-map-marker-alt"></i></div></div><div class="ml-4"><h4 class="text-lg font-semibold text-dark">Our Location</h4><p class="text-gray-600">ស្ពានស្រែង · ភ្នំស្រុក · ព្រះវិហារ</p></div></div>
-                        <div class="flex"><div class="flex-shrink-0"><div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white"><i class="fas fa-phone-alt"></i></div></div><div class="ml-4"><h4 class="text-lg font-semibold text-dark">Phone Number</h4><p class="text-gray-600">+855 12 345 678</p></div></div>
+                        <div class="flex"><div class="flex-shrink-0"><div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white"><i class="fas fa-map-marker-alt"></i></div></div><div class="ml-4"><h4 class="text-lg font-semibold text-dark">Our Location</h4><p class="text-gray-600">ស្ពានស្រែង · ភ្នំស្រុក · បន្ទាយមានជ័យ</p></div></div>
+                        <div class="flex"><div class="flex-shrink-0"><div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white"><i class="fas fa-phone-alt"></i></div></div><div class="ml-4"><h4 class="text-lg font-semibold text-dark">Phone Number</h4><p class="text-gray-600">+855 17 407 773</p></div></div>
                         <div class="flex"><div class="flex-shrink-0"><div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white"><i class="fas fa-envelope"></i></div></div><div class="ml-4"><h4 class="text-lg font-semibold text-dark">Email Address</h4><p class="text-gray-600">info@raukprimary.edu.kh</p></div></div>
                         <div class="flex"><div class="flex-shrink-0"><div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white"><i class="fas fa-clock"></i></div></div><div class="ml-4"><h4 class="text-lg font-semibold text-dark">Working Hours</h4><p class="text-gray-600">Mon–Fri: 7:00 AM – 4:00 PM</p></div></div>
                     </div>
@@ -14550,7 +14813,5 @@ onValue(ref(db,'teacherData'),(snap)=>{
             nav.classList.toggle("shadow-lg", window.scrollY > 50);
         });
     </script>
-
-
    
 </body></html>
